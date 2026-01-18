@@ -206,6 +206,59 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "Corner in top, edge in middle",
+            "algos" : [
+                {
+                    "name" : "Right edge white top right opposite colors",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/Right edge white top right opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["DW" , "R'", "U", "R" ,"U2", "R'" ,"U" ,"R"],
+                        "toMake" : ["F'", "U'", "F" , "U2", "F'" , "U'" , "F" , "U'"]
+                    }
+                },
+                {
+                    "name" : "White straight edge facing up, colors match",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/White straight edge facing up, colors match.png",
+                    "algo" : {
+                        "toComplete" : ["U'" , "R" , "U'" , "R'" , "U2" , "R" , "U'" , "R'"],
+                        "toMake" : ["R" , "U" , "R'" , "U2" , "R" , "U", "R'" , "U"]
+                    }
+                },
+                {
+                    "name" : "White straight edge turned",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/White straight edge turned.png",
+                    "algo" : {
+                        "toComplete" : ["DW", "R'" , "U'" , "R" , "DW'" , "R" , "U" , "R'"],
+                        "toMake" : ["R" , "U'" , "R'","U" , "F'" , "U" , "F" , "U'"]
+                    }
+                },
+                {
+                    "name" : "White facing, edge turned",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/White facing, edge turned.png",
+                    "algo" : {
+                        "toComplete" : ["U'" , "R" , "U" , "R'" , "DW" , "R'" , "U'" , "R"],
+                        "toMake" : ["F'" , "U" , "F" , "U'" , "R" ,"U'" ,"R'" , "U"]
+                    }
+                },
+                {
+                    "name" : "White on top of the edge of the seat",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/White on top of the edge of the seat.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "DW" , "R'" , "U" , "R"],
+                        "toMake" : ["R" , "B'" , "R" , "B" , "R'" , "U" , "R'"]
+                    }
+                },
+                {
+                    "name" : "White top right edge, opposite colors",
+                    "img" : "/imgs/F2l/Corner in top, edge in middle/White top right edge, opposite colors.png",
+                    "algo" : {
+                        "toComplete" : [ "(" , "U" , "R" , "U'" , "R'" , ")" , "* 3"],
+                        "toMake" : ["R" , "U'" , "R'" , "U" , "R" , "U'" , "R'" , "U" , "R" , "U'" , "R'"]
+                    }
+                }
+            ]
         }
     ]
 }

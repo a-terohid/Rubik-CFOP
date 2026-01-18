@@ -21,7 +21,7 @@ const page = () => {
                             <div className={`px-8 py-5 my-3 bg-Crime rounded-xl`}>
                                 <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
                                     {
-                                        algo.algos.map((formula , index :number) => <li key={index} className="bg-background p-5 rounded-lg">
+                                        algo.algos.map((formula , index :number) => <li key={index} className="bg-background p-5 rounded-lg hover:shadow-xl ">
                                             <h5 className="text-lg">{formula.name}</h5>
                                             <div className="flex items-center justify-center my-5">
                                                 <img className="w-1/2" src={formula.img} alt={formula.name} />
