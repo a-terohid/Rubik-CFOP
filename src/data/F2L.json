@@ -1,0 +1,142 @@
+{
+    "data" : [
+        {
+            "title" : "Basic cases",
+            "algos" : [
+                {
+                    "name" : "White right top edge, opposite colors",
+                    "img" : "/imgs/F2l/Basic cases/White right top edge, opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["R", "U" ,"R'"],
+                        "toMake" : ["R", "U'" ,"R'"]
+                    }
+                },
+                {
+                    "name" : "White top edge opposite from back",
+                    "img" : "/imgs/F2l/Basic cases/White top edge opposite from back.png",
+                    "algo" : {
+                        "toComplete" : ["(Y')", "R'" ,"U" , "R"],
+                        "toMake" : ["F'", "U" ,"F"]
+                    }
+                },
+                {
+                    "name" : "Pair made",
+                    "img" : "/imgs/F2l/Basic cases/Pair made.png",
+                    "algo" : {
+                        "toComplete" : ["U", "R" ,"U'" , "R'"],
+                        "toMake" : ["R", "U" ,"R'" ,"U'"]
+                    }
+                },
+                {
+                    "name" : "White right top edge attached, colors match",
+                    "img" : "/imgs/F2l/Basic cases/White right top edge attached, colors match.png",
+                    "algo" : {
+                        "toComplete" : ["DW", "L'" ,"U", "L"],
+                        "toMake" : ["F'", "U'" ,"F", "U"]
+                    }
+                }
+            ]
+        },
+        {
+            "title" : "Corner and edge in top",
+            "algos" : [
+                {
+                    "name" : "White right top edge attached opposite colors",
+                    "img" : "/imgs/F2l/Corner and edge in top/White right top edge attached opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["U'","R","U'","R'","U","R","U","R'"],
+                        "toMake" : ["R","U'","R'","U'","R","U","R'","U"]
+                    }
+                },
+                {
+                    "name" : "White facing top edge sticking opposite",
+                    "img" : "/imgs/F2l/Corner and edge in top/White facing top edge sticking opposite.png",
+                    "algo" : {
+                        "toComplete" : ["DW","R'","U","R","U'","R'","U'","R"],
+                        "toMake" : ["F'","U","F","U","F'","U'","F","U'"]
+                    }
+                },
+                {
+                    "name" : "White right top edge opposite colors",
+                    "img" : "/imgs/F2l/Corner and edge in top/White right top edge opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["DW", "R'" , "U" , "R" , "DW'" , "R" , "U" , "R"],
+                        "toMake" : ["R" , "U'" , "R'" , "U'" , "R", "U'" , "R'" , "U"]
+                    }
+                },
+                {
+                    "name" : "White top edge opposite top edge",
+                    "img" : "/imgs/F2l/Corner and edge in top/White top edge opposite top edge.png",
+                    "algo" : {
+                        "toComplete" : ["DW","R'","U'","R","U'" , "R'", "U'" , "R"],
+                        "toMake" : ["F'","U","F","U" , "F'" , "U" , "F", "U'"]
+                    }
+                },
+                {
+                    "name" : "White right top edge attached, opposite colors",
+                    "img" : "/imgs/F2l/Corner and edge in top/White right top edge attached, opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["DW","R'","U2","R","DW'","R","U","R'"],
+                        "toMake" : ["R'","U'","R2","U'","R2","U2","R"]
+                    }
+                },
+                {
+                    "name" : "Pair made of opposite edge",
+                    "img" : "/imgs/F2l/Corner and edge in top/Pair made of opposite edge.png",
+                    "algo" : {
+                        "toComplete" : ["U'","R","U2","R'","DW","R'", "U'","R"],
+                        "toMake" : ["F'","U","F","U'", "R","U2","R'","U"]
+                    }
+                },
+                {
+                    "name" : "White right top edge attached, colors match",
+                    "img" : "/imgs/F2l/Corner and edge in top/White right top edge attached, colors match.png",
+                    "algo" : {
+                        "toComplete" : ["R","U","R'","U2","R","U'","R'","DW'","L'","U","L"],
+                        "toMake" : ["F'","U","F","U2","R","U","R'"]
+                    }
+                },
+                {
+                    "name" : "White facing top edge sticking OK",
+                    "img" : "/imgs/F2l/Corner and edge in top/White facing top edge sticking OK.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U2" , "R" , "U'" , "R'" , "U" , "R" , "U'" , "R'"],
+                        "toMake" : ["R", "U'" , "R'" , "U2" , "F'" , "U'" , "F"]
+                    }
+                },
+                {
+                    "name" : "White right top edge colors match",
+                    "img" : "/imgs/F2l/Corner and edge in top/White right top edge colors match.png",
+                    "algo" : {
+                        "toComplete" : ["DW","R'","U2","R","U2","R'","U","R"],
+                        "toMake" : ["F'","U'","F","U2","F'","U2","F","U'"]
+                    }
+                },
+                {
+                    "name" : "White top top edge agree",
+                    "img" : "/imgs/F2l/Corner and edge in top/White top top edge agree.png",
+                    "algo" : {
+                        "toComplete" : ["U'", "R", "U2","R'","U2","R","U'","R'"],
+                        "toMake" : ["R", "U", "R'","U2","R", "U2","R'","U"]
+                    }
+                },
+                {
+                    "name" : "Right side top edge colors agree left",
+                    "img" : "/imgs/F2l/Corner and edge in top/Right side top edge colors agree left.png",
+                    "algo" : {
+                        "toComplete" : ["DW","R'","U'","R","U2","R'","U","R"],
+                        "toMake" : ["F'", "U'", "F", "U2","F'","U","F","U'"]
+                    }
+                },
+                {
+                    "name" : "White top right edge agree",
+                    "img" : "/imgs/F2l/Corner and edge in top/White top right edge agree.png",
+                    "algo" : {
+                        "toComplete" : ["U'","R","U","R'","U2","R","U'","R'"],
+                        "toMake" : ["R","U","R'","U2","R","U'","R'","U"]
+                    }
+                }
+            ]
+        }
+    ]
+}
