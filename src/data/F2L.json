@@ -259,6 +259,59 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "Corner in bottom, edge in top",
+            "algos" : [
+                {
+                    "name" : "Right corner, top left edge",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Right corner, top left edge.png",
+                    "algo" : {
+                        "toComplete" : ["U" , "R" , "U'" , "R'" , "U'" , "F'" ,"U" , "F"],
+                        "toMake" : ["F'" , "U'" , "F" ,"U" , "R" ,"U" , "R'"  , "U'"]
+                    }
+                },
+                {
+                    "name" : "Right corner, top right edge",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Right corner, top right edge.png",
+                    "algo" : {
+                        "toComplete" : ["U'" , "F'" , "U" , "F" , "U"  , "R" , "U'" , "R'" ],
+                        "toMake" : ["R" , "U"  , "R'" ,"U'" , "F'" , "U'" , "F" , "U"]
+                    }
+                },
+                {
+                    "name" : "Top left edge white bottom right",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Top left edge white bottom right.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U2" , "R'" , "DW" , "R'" , "U" , "R" ],
+                        "toMake" : ["F'" , "U'" , "F" , "U" , "F'" , "U'" , "F" ]
+                    }
+                },
+                {
+                    "name" : "Top right white edge facing down",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Top right white edge facing down.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "U" , "R" , "U'" , "R'"],
+                        "toMake" : ["R" , "U" , "R'" , "U'" , "R" , "U" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Top right white edge, bottom left",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Top right white edge, bottom left.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "R" , "U" , "R'"],
+                        "toMake" : ["R" , "U'" , "R'" , "U" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Top left white edge facing down",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in top/Top left white edge facing down.png",
+                    "algo" : {
+                        "toComplete" : ["U2" , "R" , "U'" , "R'" , "(Y')" , "R'" , "U'" , "R"],
+                        "toMake" : ["F'" , "U" , "F" , "U'" , "F'" , "U" , "F"]
+                    }
+                }
+            ]
         }
     ]
 }
