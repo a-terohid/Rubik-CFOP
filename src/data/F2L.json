@@ -312,6 +312,51 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "Corner in bottom, edge in middle",
+            "algos" : [
+                {
+                    "name" : "Right edge white bottom right opposite colors",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in middle/Right edge white bottom right opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["R","U" , "R'" , "U2" , "R" , "U'" , "R'" , "U" , "R" , "U" , "R'"],
+                        "toMake" : ["R2" , "U2" , "R'" , "U'" , "R" , "U'" , "R'", "U2" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Right edge white bottom left opposite colors",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in middle/Right edge white bottom left opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "U2" , "R" , "U'" , "R'"],
+                        "toMake" : ["R" , "U'" , "R'", "U" , "R" , "U2"  , "R'" , "U" ,"R" , "U'" ,"R'"]
+                    }
+                },
+                {
+                    "name" : "White rounded edge bottom right, opposite colors",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in middle/White rounded edge bottom right, opposite colors.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "U2" , "(Y')" ,"R'" , "U'" , "R" , "U'" , "R'" , "U" , "R"],
+                        "toMake" : ["F'" , "L'" , "U2" , "L" , "F" , "R" , "U" , "R'"]
+                    }
+                },
+                {
+                    "name" : "White rolled edge facing down, matching colors",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in middle/White rolled edge facing down, matching colors.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "U'" , "R" , "U'" , "R'" , "DW" , "R'" , "U'" , "R"],
+                        "toMake" : ["R" , "U'" , "R'" , "F'" , "L'" , "U2" , "L" , "F"]
+                    }
+                },
+                {
+                    "name" : "Rounded edge, right corner",
+                    "img" : "/imgs/F2l/Corner in bottom, edge in middle/Rounded edge, right corner.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "DW" , "R'" , "U2" ,"R" , "U2" ,"R'" ,"U" ,  "R"],
+                        "toMake" : ["F'", "U'" ,"F" ,"U2" , "F'" , "U2" , "F" , "U'" , "R" , "U" ,"R'"]
+                    }
+                }
+            ]
         }
     ]
 }
