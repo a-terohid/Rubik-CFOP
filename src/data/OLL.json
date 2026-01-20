@@ -1,0 +1,86 @@
+{
+    "data" : [
+        {
+            "title" : "Crosses",
+            "algos" : [
+                {
+                    "name" : "Fish with yellow",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Fish with yellow/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Fish with yellow/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U" , "R" , "U2" , "R'"],
+                        "toMake" : ["R" , "U2" , "R'" , "U'" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Fish without yellow",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Fish without yellow/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Fish without yellow/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U2" , "R'" , "U'" , "R" , "U'" , "R'"],
+                        "toMake" : ["R" , "U'" , "R'" ,"U'" , "R" , "U2" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Positive back and forth pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Positive back and forth pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Positive back and forth pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 3" , "F'"],
+                        "toMake" : ["R" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "R'" , "U'"]
+                    }
+                },
+                {
+                    "name" : "Positive left pair, one front and one rear",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Positive left pair, one front and one rear/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Positive left pair, one front and one rear/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U2" , "R2" , "U'" , "R2" , "U'" , "R2" , "U2" , "R"],
+                        "toMake" : ["R" , "U2" , "R2" , "U'" , "R2" , "U'" , "R2" , "U2" , "R"]
+                    }
+                },
+                {
+                    "name" : "Front pair tank",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Front pair tank/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Front pair tank/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R2" , "D" , "R'" , "U2" , "R" , "D'" , "R'" , "U2" , "R'"],
+                        "toMake" : ["R", "U2" , "R" , "D" , "R'" , "U2" , "R" , "D'" , "R2" ]
+                    }
+                },
+                {
+                    "name" : "Left and right tanks",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Left and right tanks/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Left and right tanks/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["LW'" , "U'" , "L" , "U" ,"R" , "U'" , "L'" , "U"],
+                        "toMake" : ["R'" , "F'" , "L'" , "F" , "R" , "F'" , "L" , "F"]  
+                    }
+                },
+                {
+                    "name" : "Eight",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Crosses/Eight/shape.png",
+                        "forAlgo" : "/imgs/OLL/Crosses/Eight/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" :  ["LW'" , "U'" , "L'" , "U" ,"R" , "U'" , "L" , "U"],
+                        "toMake" : ["R'" , "F'" , "L" , "F" , "R" , "F'" , "L'" , "F" , "U"]
+                    }
+                }
+            ]
+        }
+    ]
+}
