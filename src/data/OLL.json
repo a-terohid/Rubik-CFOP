@@ -108,6 +108,33 @@
                     }
                 }
             ]
+        } , 
+        {
+            "title" : "Squares",
+            "algos" : [
+                {
+                    "name" : "Right square without yellow",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Squares/Right square without yellow/shape.png",
+                        "forAlgo" : "/imgs/OLL/Squares/Right square without yellow/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW'" , "U2" , "R" , "U" , "R'" , "U" , "RW"],
+                        "toMake" : ["R'" , "F'" , "L" , "F'" , "L'" ,"F2" , "R" , "U2"]
+                    }
+                },
+                {
+                    "name" : "Left square without yellow",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Squares/Left square without yellow/shape.png",
+                        "forAlgo" : "/imgs/OLL/Squares/Left square without yellow/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["LW" , "U2" ,"L'" , "U'" ,"L" , "U'" ,"LW'"],
+                        "toMake" : ["L" , "F" , "R'" , "F" , "R" , "F2" , "L'" , "U2"]
+                    }
+                }
+            ]
         }
     ]
 }
