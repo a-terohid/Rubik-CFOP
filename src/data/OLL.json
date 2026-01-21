@@ -135,6 +135,44 @@
                     }
                 }
             ]
+        } ,
+        {
+            "title" : "Edged Flipped",
+            "algos" : [
+                {
+                    "name" : "shape of the letter H",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Edged Flipped/shape of the letter H/shape.png",
+                        "forAlgo" : "/imgs/OLL/Edged Flipped/shape of the letter H/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "M'" , "U" , "R" , "U'" , "RW'"],
+                        "toMake" : ["F" , "R'" , "F'" , "R" , "L'" , "U" , "R" , "U'" , "R'" , "L"]
+                    }
+                },
+                {
+                    "name" : "Four corners filled in a step shape",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Edged Flipped/Four corners filled in a step shape/shape.png",
+                        "forAlgo" : "/imgs/OLL/Edged Flipped/Four corners filled in a step shape/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["M'" , "U" , "M" , "U2" ,"M'" , "U" , "M"  ],
+                        "toMake" : ["R" , "U" , "R'" , "U'" , "RW" , "R'" , "U" , "R" , "U'" , "RW'" , "U2"]
+                    }
+                },
+                {
+                    "name" : "Four corners filled",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Edged Flipped/Four corners filled/shape.png",
+                        "forAlgo" : "/imgs/OLL/Edged Flipped/Four corners filled/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["(" , "M'" , "U" , ")" , "* 4" ,"(" , "M" , "U" , ")" , "* 4"],
+                        "toMake" : ["RW'" , "R" , "U" ,"R" , "U" ,"R'" , "U'" , "RW2" , "R2" , "U" , "R" , "U'" , "RW'"]
+                    }
+                }
+            ]
         }
     ]
 }
