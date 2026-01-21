@@ -276,6 +276,55 @@
                     }
                 }
             ]
+        } ,
+        {
+            "title" : "Fish Shape",
+            "algos" : [
+                {
+                    "name" : "All single",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Fish Shape/All single/shape.png",
+                        "forAlgo" : "/imgs/OLL/Fish Shape/All single/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U2" , "R2" ,"F" , "R" ,"F'" , "R" , "U2" ,"R'"],
+                        "toMake" : ["R'" , "U2" , "LW" , "U'" , "R" , "U", "R'" , "LW'" , "U2" , "R" , "U"]
+                    }
+                },
+                {
+                    "name" : "All pairs",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Fish Shape/All pairs/shape.png",
+                        "forAlgo" : "/imgs/OLL/Fish Shape/All pairs/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "R" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "F'"],
+                        "toMake" : ["F" , "R" , "U'" , "R'" , "U" , "R", "U" , "R'" , "F'"]
+                    }
+                },
+                {
+                    "name" : "Half Single",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Fish Shape/Half Single/shape.png",
+                        "forAlgo" : "/imgs/OLL/Fish Shape/Half Single/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U"  , "R'" , "F" , "R" , "F'" , "R" , "U2" , "R'"],
+                        "toMake" : ["R" , "U2" , "R'", "F" , "R'" , "F'" , "R" , "U'" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Half Pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Fish Shape/Half Pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/Fish Shape/Half Pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "R'" , "F" , "R2" ,"U" , "R'" , "U'" , "F'"],
+                        "toMake" : ["F" , "U" , "R" , "U'", "R2" , "F'" , "R" , "U"  , "R" , "U'" , "R'"]
+                    }
+                }
+            ]
         } 
     ]
 }
