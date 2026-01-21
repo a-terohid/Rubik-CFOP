@@ -173,6 +173,33 @@
                     }
                 }
             ]
-        }
+        },
+        {
+            "title" : "C Shapes",
+            "algos" : [
+                {
+                    "name" : "Full level on the right hand",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/C Shapes/Full level on the right hand/shape.png",
+                        "forAlgo" : "/imgs/OLL/C Shapes/Full level on the right hand/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R'" ,"U'" , "R'" , "F" , "R" , "F'" , "U" , "R"],
+                        "toMake" : ["R" , "U" , "B'" , "R" , "B" , "R'", "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "No full level",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/C Shapes/No full level/shape.png",
+                        "forAlgo" : "/imgs/OLL/C Shapes/No full level/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R","U" , "R2" , "U'" , "R'" , "F" , "R" ,"U" , "R" , "U'" ,"F'"],
+                        "toMake" : ["B'" , "F"  , "R'" , "F'" , "R" , "B" , "U" , "R" , "U'" , "R'"]
+                    }
+                }
+            ]
+        } 
     ]
 }
