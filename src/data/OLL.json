@@ -81,6 +81,33 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "T Shapes",
+            "algos" : [
+                {
+                    "name" : "Single front pair left single back",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/T Shapes/Single front pair left single back/shape.png",
+                        "forAlgo" : "/imgs/OLL/T Shapes/Single front pair left single back/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "R" , "U" , "R'" , "U'" , "F'"],
+                        "toMake" : ["F" , "U" , "R" , "U'" , "R'" , "F'"]
+                    }
+                },
+                {
+                    "name" : "Front and rear pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/T Shapes/Front and rear pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/T Shapes/Front and rear pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "R'" , "F" ,"R" , "F'"],
+                        "toMake" : ["F" , "R'" , "F'" , "R" , "U" , "R" , "U'" , "R'"]
+                    }
+                }
+            ]
         }
     ]
 }
