@@ -200,6 +200,33 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "W Shapes",
+            "algos" : [
+                {
+                    "name" : "Single",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/W Shapes/Single/shape.png",
+                        "forAlgo" : "/imgs/OLL/W Shapes/Single/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U","R'" , "U" , "R" , "(" , "U'" , "R'" , ")" , "* 2" , "F" , "R" , "F'"],
+                        "toMake" : ["F" , "R'" , "F'" , "R" , "U" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Paired",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/W Shapes/Paired/shape.png",
+                        "forAlgo" : "/imgs/OLL/W Shapes/Paired/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R'" , "U'" , "R" , "U'" , "R'" , "U", "R" , "U" , "R" , "B'" , "R'" , "B"],
+                        "toMake" : ["B'" , "R" , "B" , "R'" , "U'" , "R'" , "U'" , "R" ,"U" , "R'" , "U" ,"R"]
+                    }
+                }
+            ]
         } 
     ]
 }
