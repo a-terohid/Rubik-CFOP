@@ -227,6 +227,55 @@
                     }
                 }
             ]
+        } ,
+        {
+            "title" : "Small Lighting Bolt",
+            "algos" : [
+                {
+                    "name" : "Single right seat inside",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Small Lighting Bolt/Single right seat inside/shape.png",
+                        "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single right seat inside/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["LW" , "U" , "L'" ,"U" , "L" ,"U2" , "LW'"],
+                        "toMake" : ["F" , "R2" , "B'" , "R'" , "B" , "R'" , "F'" , "U'"]
+                    }
+                },
+                {
+                    "name" : "Single right seat outside",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Small Lighting Bolt/Single right seat outside/shape.png",
+                        "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single right seat outside/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "R" , "U" ,"R'" , "U'" , "F'" , "U" , "F" , "R" , "U" , "R'" , "U'" ,"F'"],
+                        "toMake" : ["RW" ,"R'" , "U" , "R'" , "U2" , "R" , "U", "R'" , "U" , "R2" , "RW'" , "U"]
+                    }
+                },
+                {
+                    "name" : "Single left seat inside",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Small Lighting Bolt/Single left seat inside/shape.png",
+                        "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single left seat inside/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW'" , "U'" , "R" ,"U'" , "R'" ,"U2" , "RW"],
+                        "toMake" : ["B'" ,"R2" , "F" , "R" ,"F'" , "R" , "B" , "U'"]
+                    }
+                },
+                {
+                    "name" : "Single left seat outside",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Small Lighting Bolt/Single left seat outside/shape.png",
+                        "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single left seat outside/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F'" , "L'" , "U'" ,"L" , "U" , "F" , "U" , "F" , "R" , "U" , "R'" , "U'" , "F'"],
+                        "toMake" : ["RW'" , "R" ,"U'" ,"R" , "U2" , "R'" ,  "U'" , "R" , "U'" , "R2" , "RW" , "U"]
+                    }
+                }
+            ]
         } 
     ]
 }
