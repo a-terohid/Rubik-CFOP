@@ -325,6 +325,77 @@
                     }
                 }
             ]
+        } ,
+        {
+            "title" : "L Smal Shape",
+            "algos" : [
+                {
+                    "name" : "Front pair, back row",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Front pair, back row/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Front pair, back row/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW'" , "U2" , "R" , "U" ,"R'" , "U'" , "R" , "U" , "R'" , "U" , "RW"],
+                        "toMake" : ["RW'" , "U2" , "R" , "U" , "R'" , "U'" , "R" , "U", "R'" , "U" , "RW" , "U"]
+                    }
+                },
+                {
+                    "name" : "Rear pair, front row",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Rear pair, front row/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Rear pair, front row/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "RW'"],
+                        "toMake" : ["RW" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "RW'" , "U'" ]
+                    }
+                },
+                {
+                    "name" : "Right row bottom L",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Right row bottom L/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Right row bottom L/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "B'" , "R2" , "F" , "R2" , "B" , "R2" , "F'" ,"R"],
+                        "toMake" : ["R'" , "F" , "R2" , "B'" ,"R2" , "F'" , "R2" , "B" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Right row top L",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Right row top L/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Right row top L/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R'" , "F" , "R2" , "B'" , "R2" , "F'" , "R2" , "B" , "R'"],
+                        "toMake" : ["R" , "B'" , "R2" , "F" , "R2" , "B" , "R2" , "F'" , "R" ]
+                    }
+                },
+                {
+                    "name" : "Single left L up",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Single left L up/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Single left L up/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F'" , "(" , "L'" , "U'" , "L" , "U" , ")" , "* 2" , "F"],
+                        "toMake" : ["F'" , "U'" , "L'" , "U" , "L" , "U'" , "L'" , "U" , "L" , "F" ]
+                    }
+                },
+                {
+                    "name" : "Single right L up",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Smal Shape/Single right L up/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Smal Shape/Single right L up/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "F'"],
+                        "toMake" : ["F" , "U" , "R" , "U'" , "R'" , "U" , "R" , "U'" , "R'" , "F'"]
+                    }
+                } 
+            ]
         } 
     ]
 }
