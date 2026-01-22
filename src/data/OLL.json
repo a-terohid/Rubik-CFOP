@@ -396,6 +396,55 @@
                     }
                 } 
             ]
-        } 
+        } ,
+        {
+            "title" : "P Shapes",
+            "algos" : [
+                {
+                    "name" : "Full left level",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/P Shapes/Full left level/shape.png",
+                        "forAlgo" : "/imgs/OLL/P Shapes/Full left level/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "U" , "R" ,"U'" , "R'" , "F'"],
+                        "toMake" : ["F" , "R" , "U" , "R'" ,"U'" , "F'"]
+                    }
+                },
+                {
+                    "name" : "Full right level",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/P Shapes/Full right level/shape.png",
+                        "forAlgo" : "/imgs/OLL/P Shapes/Full right level/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["FW'" , "L'" ,"U'" , "L" , "U" , "FW"],
+                        "toMake" : ["FW'" , "U'" , "L'" , "U" , "L" , "FW"]
+                    }
+                },
+                {
+                    "name" : "Single left P down",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/P Shapes/Single left P down/shape.png",
+                        "forAlgo" : "/imgs/OLL/P Shapes/Single left P down/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" ,  "B'"  , "U'" , "R'" , "U" , "R" , "B" , "R'"],
+                        "toMake" : ["R" , "B'" , "R'" , "U'" , "R" , "U" , "B" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Single left P top",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/P Shapes/Single left P top/shape.png",
+                        "forAlgo" : "/imgs/OLL/P Shapes/Single left P top/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R'" ,"U'" , "F" , "U" , "R" , "U'" , "R'" , "F'" , "R"],
+                        "toMake" : ["R'" , "F" , "R" , "U" , "R'" , "U'", "F'" , "U" ,"R" ]
+                    }
+                }
+            ]
+        }
     ]
 }
