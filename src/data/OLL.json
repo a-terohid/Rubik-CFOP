@@ -445,6 +445,88 @@
                     }
                 }
             ]
-        }
+        },
+        {
+            "title" : "Dot Shapes",
+            "algos" : [
+                {
+                    "name" : "Complete left and right surface",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Complete left and right surface/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Complete left and right surface/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U2" , "R2" , "F" , "R" , "F'" , "U2" , "R'" , "F" , "R" , "F'"],
+                        "toMake" : ["F" , "R'" , "F'" , "R" , "U" , "R2" ,"B'" , "R'" , "B" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Full left surface",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Full left surface/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Full left surface/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "R" , "U" , "R'" , "U'" , "S" , "R" , "U" , "R'" ,"U'" , "FW'"],
+                        "toMake" : ["FW" , "U" , "R" , "U'" , "R'" , "FW'" , "F" , "U"  , "R" , "U'" , "R'" , "F'"]
+                    }
+                },
+                {
+                    "name" : "Mickey with a surface",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Mickey with a surface/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Mickey with a surface/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["F" , "R" , "U" , "R'" , "U" , "(Y')" , "R'" , "U2" , "R'" , "F" , "R" , "F'"],
+                        "toMake" : ["F" , "R'" , "F'"  , "R" , "U2" , "R" , "DW'" , "R" , "U'" , "R'"  , "F'"]
+                    }
+                },
+                {
+                    "name" : "Mickey without a surface",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Mickey without a surface/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Mickey without a surface/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW'" , "R" , "U" , "R" , "U" , "R'" , "U'" , "RW" , "R2" , "F" , "R" , "F'"],
+                        "toMake" : ["R'" , "F'" , "U2" , "F2" , "U" , "R" , "U'", "R'" ,"F'" , "U2" , "R"]
+                    }
+                },
+                {
+                    "name" : "Diameter of the yellow edge",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Diameter of the yellow edge/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Diameter of the yellow edge/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U" , "R'" , "F" ,"R" , "F'" , "U2" ,"R'" , "F" , "R" , "F'" ],
+                        "toMake" : ["F" , "R'" , "F'" , "R" , "U2" , "F" ,"R'" , "F'" , "R" , "U'" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Dot a corner bottom edge",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Dot a corner bottom edge/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Dot a corner bottom edge/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["FW" , "R" , "U" , "R'" , "U'" , "FW'" ,"U'" , "F" , "R","U" , "R'" , "U'" , "F'"],
+                        "toMake" : ["L'" , "R" , "B'" ,"L" , "U2" , "L'" , "B'" , "R" , "B'" , "R2" , "L" , "U'"]
+                    }
+                },
+                {
+                    "name" : "Dot corner no single",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Dot Shapes/Dot corner no single/shape.png",
+                        "forAlgo" : "/imgs/OLL/Dot Shapes/Dot corner no single/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : [ "FW" , "R" , "U" , "R'" , "U'" , "FW'"  , "U" , "F" ,"R" , "U" , "R'" , "U'" , "F'" ],
+                        "toMake" : ["R" , "L'" , "B" , "R'" , "U2" , "R" , "B" , "L'" , "B" , "L2" , "R'" , "U'"]
+                    }
+                }
+            ]
+        } 
     ]
 }
