@@ -30,10 +30,10 @@ const page = () => {
                                                 <img className="col-span-2" src={formula.imgages.forAlgo} alt={formula.name} />
                                             </div>
                                             <div className="flex flex-col gap-y-1 items-center justify-center">
-                                                <p className=" text-lg flex gap-x-2">{
+                                                <p className=" text-lg flex gap-x-2 whitespace-nowrap">{
                                                     formula.algo.toComplete.map((al , index) => <span key={index}>{al}</span>)    
                                                 }</p>
-                                                <p className="text-sm flex gap-x-2">{
+                                                <p className="text-sm flex gap-x-2 whitespace-nowrap">{
                                                     formula.algo.toMake.map((al , index) => <span key={index}>{al}</span>)
                                                 }</p>
                                             </div>
