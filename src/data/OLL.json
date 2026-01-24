@@ -576,6 +576,33 @@
                     }
                 }
             ]
+        } ,
+        {
+            "title" : "Z Shapes",
+            "algos" : [
+                {
+                    "name" : "Front pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Z Shapes/Front pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/Z Shapes/Front pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R" , "B'" , "R'" , "U'" , "R" , "U" , "(Y)" , "R" , "U'"  , "F'"],
+                        "toMake" : ["F" ,"U" , "R'" , "(Y')" , "U'" , "R'" , "U" , "R" , "B" ,"R'"]
+                    }
+                },
+                {
+                    "name" : "Single front",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/Z Shapes/Single front/shape.png",
+                        "forAlgo" : "/imgs/OLL/Z Shapes/Single front/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["R'" , "F" , "R" , "U" , "R'" , "U'" , "F'" , "U" , "R"],
+                        "toMake" : ["R'" , "U'" , "F" , "U" , "R" , "U'" , "R'" , "F'" , "R"]
+                    }
+                }
+            ]
         }
     ]
 }
