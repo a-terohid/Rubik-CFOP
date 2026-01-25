@@ -1,0 +1,42 @@
+{
+    "data" : [
+        {
+            "title" : "Edges only",
+            "algos" : [
+                {
+                    "name" : "The corners are right, the edges are wrong, symmetrical",
+                    "img" : "/imgs/PLL/Edges only/The corners are right, the edges are wrong, symmetrical.png",
+                    "algo" : {
+                        "toComplete" : ["M2" , "U" , "M2" , "U2" ,"M2" , "U" , "M2" ],
+                        "toMake" : ["L2" , "R2" , "D'" ,"L2" , "R2" , "U2" , "L2" , "R2" , "D'" , "L2" , "R2"]
+                    }
+                },
+                {
+                    "name" : "Corners are right, edges are wrong, opposite",
+                    "img" : "/imgs/PLL/Edges only/Corners are right, edges are wrong, opposite.png",
+                    "algo" : {
+                        "toComplete" : ["M2" , "U" , "M2" ,"U" , "M'" , "U2" , "M2" , "U2" , "M'" , "M2"],
+                        "toMake" : ["U2" , "R'" , "U'" , "R2" , "U" , "R" , "U" , "R'" , "U'" , "R" , "U" , "R" , "U'" , "R" , "U'" , "R'"]
+                    }
+                },
+                {
+                    "name" : "Full back row of front edge for left side",
+                    "img" : "/imgs/PLL/Edges only/Full back row of front edge for left side.png",
+                    "algo" : {
+                       "toComplete" : ["R" , "U'" , "(" , "R" , "U" , ")" , "* 2" , "R" , "U'" , "R'" , "U'" , "R'" ,"U" , "R2"],
+                        "toMake" : ["R'" , "U" , "R'" , "U'" , "R'" , "U'" , "R'" , "U" , "R" , "U" , "R2" , "U2"]
+                    }
+                },
+                {
+                    "name" : "Full back row of front edge for right side",
+                    "img" : "/imgs/PLL/Edges only/Full back row of front edge for right side.png",
+                    "algo" : {
+                       "toComplete" : ["R2" , "U" , "R", "U" , "(" , "R'" , "U'" , ")" , "* 2" , "R'" , "U" , "R'"],
+                        "toMake" : ["R" , "U'" , "R" , "U", "R", "U" , "R" , "U'" , "R'" , "U'" , "R2"]
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
