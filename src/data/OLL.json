@@ -603,6 +603,55 @@
                     }
                 }
             ]
+        },
+        {
+            "title" : "L Shapes",
+            "algos" : [
+                {
+                    "name" : "Right L Left Pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Shapes/Right L Left Pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Shapes/Right L Left Pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["RW" , "U" , "RW'" , "R" , "U" , "R'" , "U'", "RW" , "U'" ,"RW'"],
+                        "toMake" : ["L" , "F" , "L'", "U" , "R" , "U'" , "R'" , "L", "F'" , "L'"]
+                    }
+                },
+                {
+                    "name" : "Right L Right pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Shapes/Right L Right pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Shapes/Right L Right pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["(X')" , "R" , "U'" , "R'" ,"F'" ,"R" , "U" , "R'" , "(" , "X" , "Y" , ")" , "R'", "U" , "R"],
+                        "toMake" : ["F'" , "U'" , "F" , "L" , "F'" , "L'" , "U" , "L" , "F"  , "L'" , "U2"]
+                    }
+                },
+                {
+                    "name" : "L Left Right Pair",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Shapes/L Left Right Pair/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Shapes/L Left Right Pair/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["LW'"  , "U'" , "LW" , "L'" , "U'" , "L" , "U" , "LW'" , "U" , "LW"],
+                        "toMake" : ["L'" , "B'" , "L" ,"U'" , "R'" , "U" , "R" , "L'" , "B" ,"L" , "U2"]
+                    }
+                },
+                {
+                    "name" : "L left pair left",
+                    "imgages" : {
+                        "shape" : "/imgs/OLL/L Shapes/L left pair left/shape.png",
+                        "forAlgo" : "/imgs/OLL/L Shapes/L left pair left/forAlgo.png"
+                    },
+                    "algo" : {
+                        "toComplete" : ["(X')" , "L'" , "U" , "L" , "F" , "L'" , "U'" , "L" ,  "(" , "X" , "Y'" , ")" , "L" , "U'"  , "L'"],
+                        "toMake" : ["F" , "U" , "F'" , "R'" , "F" , "R" ,"U'" , "R'" , "F'"  , "R" , "U2"]
+                    }
+                }
+            ]
         }
     ]
 }
