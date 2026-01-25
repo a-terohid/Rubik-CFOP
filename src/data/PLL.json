@@ -66,6 +66,122 @@
                     }
                 }
             ]
+        },{
+            "title" : "Edges and corners",
+            "algos" : [
+                {
+                    "name" : "Right up",
+                    "img" : "/imgs/PLL/Edges and corners/Right up.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "U" , "R" , "U'" , "R'" , "F'" , "U'"  , "F" , "R" , "U" , "R'" , "F" , "R'" , "F'" , "R" , "U'" ,"R"],
+                        "toMake" : ["U" , "R'" , "U" , "L'" , "U2" , "R" , "U'"  , "R'" ,"L" , "U" , "L'" , "U2" , "R" , "U'"  , "L" , "U2"]
+                    }
+                },
+                {
+                    "name" : "Left up",
+                    "img" : "/imgs/PLL/Edges and corners/Left up.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U'" , "R'" , "U", "LW" , "U" , "F" , "U'" , "R'" , "F'"  , "R" , "U'" , "R" , "U" , "LW'" , "U" , "R'"],
+                        "toMake" : ["U" , "L" , "U'" , "R" , "U2" , "L'" , "U" , "L" , "R'" , "U'" , "R"  , "U2" ,"L'" , "U" , "R'"]
+                    }
+                },
+                {
+                    "name" : "The entire left row, two edges and two corners, are swapped",
+                    "img" : "/imgs/PLL/Edges and corners/The entire left row, two edges and two corners, are swapped.png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "F'" , "R" , "U" ,"R'" , "U'" , "R'" , "F" , "R2" , "U'" , "R'" , "U'"],
+                        "toMake" : ["R" , "U2" ,"R'"  , "U'" , "R" ,"U2" , "L'" , "U" , "R'" , "U'" , "L"]
+                    }
+                },
+                {
+                    "name" : "Mode (t)",
+                    "img" : "/imgs/PLL/Edges and corners/Mode (t).png",
+                    "algo" : {
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "R'" , "F" , "R2" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "F'"],
+                        "toMake" : ["F" , "R" , "U'" , "R'" , "U" , "R" , "U" , "R2" , "F'" , "R", "U" , "R" , "U'" ,"R'"]
+                    }
+                },
+                {
+                    "name" : "Mode (y)",
+                    "img" : "/imgs/PLL/Edges and corners/Mode (y).png",
+                    "algo" : {
+                        "toComplete" : ["F" , "R", "U'" ,"R'" , "U'" ,"R" , "U" ,"R'" , "F'" , "R" , "U" ,"R'" , "U'" , "R'" ,"F" , "R" , "F'"],
+                        "toMake" : ["F" , "R'" ,"F'" , "R", "U" ,"R" , "U'" , "R'" , "F" , "R" , "U'" , "R'" ,"U" ,"R" ,"U" , "R'" , "F'"]
+                    }
+                },
+                {
+                    "name" : "The entire left block, both edges and both corners, should be swapped",
+                    "img" : "/imgs/PLL/Edges and corners/The entire left block, both edges and both corners, should be swapped.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "U" , "R'" , "DW'" , "R'" , "F'" , "R2" , "U'" ,"R'" , "U" , "R'", "F" ,"R", "F"],
+                        "toMake" : ["R'" , "B'" , "R'" , "B" ,"R" , "B2" , "D" , "B" , "D'" , "B" , "U" ,"R" , "U'" , "R" ]
+                    }
+                },
+                {
+                    "name" : "The entire front row, both edges and both corners, should be replaced",
+                    "img" : "/imgs/PLL/Edges and corners/The entire front row, both edges and both corners, should be replaced.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "U'" , "F'" ,"R" , "U" , "R'"  , "U'" , "R'" , "F" , "R2" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "U" , "R"],
+                        "toMake" : ["U" , "R2" ,"F" , "R" , "F'" , "R'" , "U'" ,"F'" , "U", "F" , "R2" ,"U" , "R'" ,"U'"  , "R" ,"U"]
+                    }
+                },
+                {
+                    "name" : "Front pair, right side block",
+                    "img" : "/imgs/PLL/Edges and corners/Front pair, right side block.png",
+                    "algo" : {
+                        "toComplete" : ["L" , "U2" , "L'" , "U2"  , "L" , "F'" , "L'", "U'" , "L" , "U" ,"L" , "F" , "L2" , "U"],
+                        "toMake" : ["U'" ,"R" , "U'" , "B" , "L'" , "B'" , "R'" , "B" , "L" , "B'" , "U'"  , "R", "U2" , "R'" , "U2"]
+                    }
+                },
+                {
+                    "name" : "Front pair, left right block",
+                    "img" : "/imgs/PLL/Edges and corners/Front pair, left right block.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "U2" , "R" ,"U2" , "R'" , "F" , "R" , "U" , "R'" , "U'" , "R'" , "F'"  , "R2" ,"U'"],
+                        "toMake" : ["U" , "R2" , "F" , "R" , "U" , "R" , "U'" , "R'" ,"F'" , "R" , "U2" ,"R'" ,"U2" , "R"]
+                    }
+                },
+                {
+                    "name" : "The front row is complete, the rest of the blocks are complete",
+                    "img" : "/imgs/PLL/Edges and corners/The front row is complete, the rest of the blocks are complete.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "U" ,"L'" ,"U2", "R" , "U'" , "R'" , "U2" ,"L" , "R" ,"U'" ],
+                        "toMake" : ["R2" , "D" , "R" , "D'" , "R" , "F2" ,"L'" , "U" ,"L" , "F2" , "U'"]
+                    }
+                },
+                {
+                    "name" : "aaaaaaaaaa",
+                    "img" : "/imgs/PLL/Edges and corners/aaaaaaaaaa.png",
+                    "algo" : {
+                        "toComplete" : [],
+                        "toMake" : []
+                    }
+                },
+                {
+                    "name" : "aaaaaaaaaa",
+                    "img" : "/imgs/PLL/Edges and corners/aaaaaaaaaa.png",
+                    "algo" : {
+                        "toComplete" : [],
+                        "toMake" : []
+                    }
+                },
+                {
+                    "name" : "aaaaaaaaaa",
+                    "img" : "/imgs/PLL/Edges and corners/aaaaaaaaaa.png",
+                    "algo" : {
+                        "toComplete" : [],
+                        "toMake" : []
+                    }
+                },
+                {
+                    "name" : "aaaaaaaaaa",
+                    "img" : "/imgs/PLL/Edges and corners/aaaaaaaaaa.png",
+                    "algo" : {
+                        "toComplete" : [],
+                        "toMake" : []
+                    }
+                }
+            ]
         }
     ]
 }
