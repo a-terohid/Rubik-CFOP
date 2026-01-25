@@ -27,10 +27,10 @@ const page = () => {
                                                 <img className="w-1/2" src={formula.img} alt={formula.name} />
                                             </div>
                                             <div className="flex flex-col gap-y-1 items-center justify-center">
-                                                <p className=" text-lg flex gap-x-2 whitespace-nowrap">{
+                                                <p className=" text-lg flex gap-x-2 whitespace-nowrap flex-wrap items-center  justify-center">{
                                                     formula.algo.toComplete.map((al , index) => <span key={index}>{al}</span>)    
                                                 }</p>
-                                                <p className="text-sm flex gap-x-2 whitespace-nowrap">{
+                                                <p className="text-sm flex gap-x-2 whitespace-nowrap flex-wrap items-center  justify-center">{
                                                     formula.algo.toMake.map((al , index) => <span key={index}>{al}</span>)
                                                 }</p>
                                             </div>
