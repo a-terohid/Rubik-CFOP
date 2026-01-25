@@ -37,6 +37,35 @@
                 }
                 
             ]
+        },
+        {
+            "title" : "Corners only",
+            "algos" : [
+                {
+                    "name" : "Complete right block and back pair",
+                    "img" : "/imgs/PLL/Corners only/Complete right block and back pair.png",
+                    "algo" : {
+                        "toComplete" : ["R'" , "F" , "R'" , "B2" , "R" , "F'" , "R'", "B2" , "R2"],
+                        "toMake" : ["R2" , "B2" , "R" , "F" , "R'" , "B2" , "R" , "F'" , "R"]
+                    }
+                },
+                {
+                    "name" : "Complete right block and right pair",
+                    "img" : "/imgs/PLL/Corners only/Complete right block and right pair.png",
+                    "algo" : {
+                        "toComplete" : ["(X)" , "R2" , "D2" , "R" , "U" , "R'" , "D2" , "R" , "U'" , "R'" , "(X')"],
+                        "toMake" : ["R'" , "F" , "R'" , "B2" , "R" , "F'" , "R'", "B2" , "R2"]
+                    }
+                },
+                {
+                    "name" : "The edges are right but the corners are not",
+                    "img" : "/imgs/PLL/Corners only/The edges are right but the corners are not.png",
+                    "algo" : {
+                        "toComplete" : ["(X')" , "R" , "U'" , "R'" , "D" ,"R" , "U" , "R'" , "D'" , "R" , "U" , "R'" , "D" , "R" , "U'", "R'" , "D'"],
+                        "toMake" : ["L'" , "B" , "L" , "F'" , "L'" , "B'" , "L" , "F2" , "R" , "B'" , "R'" , "F'" ,"R" , "B" , "R'"]
+                    }
+                }
+            ]
         }
     ]
 }
