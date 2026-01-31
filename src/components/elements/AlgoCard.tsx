@@ -1,9 +1,9 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
-const AlgoCard = ({formula}:{formula:any}) => {
+const AlgoCard = ({formula , title , algoHandler}:{formula:any , title:string , algoHandler: (data: any) => void}) => {
     return (
-       <div className="relative overflow-hidden rounded-2xl p-4 flex flex-col
+       <div onClick={()=> algoHandler({...formula , title})} className="relative overflow-hidden rounded-2xl p-4 flex flex-col hover:cursor-pointer
       bg-gradient-to-br from-slate-900 via-slate-900/90 to-slate-950
       border border-white/5 shadow-md
       hover:shadow-xl hover:-translate-y-1 transition-all duration-300

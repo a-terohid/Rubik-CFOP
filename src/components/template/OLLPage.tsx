@@ -1,8 +1,16 @@
+"use client"
+
 import data from "@/src/data/OLL.json"
 import AlgoSection from "../elements/AlgoSection";
+import { useState } from "react";
+import AlgoritmDetails from "../elements/AlgoritmDetails";
 
 const OLLPage = () => {
-      const algos = data.data
+
+    const [ isModuleOpen , setIsModuleOpen  ]  = useState<boolean>(false)
+    const [ algoritmData , setAlgoritmData ] = useState({})
+
+    const algos = data.data
     
     return (
         <div className="min-h-screen text-slate-100 px-4 py-24 relative overflow-hiddenbg-[radial-gradient(ellipse_at_top,_#0f172a_0%,_#020617_60%,_#020617_100%)]">
@@ -20,10 +28,11 @@ const OLLPage = () => {
 
                 <div className="space-y-12">
                     {algos.map((algo: any, index: number) => (
-                        <AlgoSection key={index} algo={algo} item={index} />
+                        <AlgoSection key={index} algo={algo} item={index} setIsModuleOpen={setIsModuleOpen} setAlgoritmData={setAlgoritmData}/>
                     ))}
                 </div>
             </div>
+             { isModuleOpen && <AlgoritmDetails setIsModuleOpen={setIsModuleOpen} algoritmData={algoritmData} /> }
         </div>
     );
 };

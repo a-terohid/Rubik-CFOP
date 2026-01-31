@@ -1,8 +1,14 @@
+"use client"
+
 import data from "@/src/data/PLL.json"
-import { MdArrowDropDown } from "react-icons/md";
 import AlgoSection from "../elements/AlgoSection";
+import { useState } from "react";
+import AlgoritmDetails from "../elements/AlgoritmDetails";
 
 const PLLPage = () => {
+
+    const [ isModuleOpen , setIsModuleOpen  ]  = useState<boolean>(false)
+    const [ algoritmData , setAlgoritmData ] = useState({})
     
     const algos = data.data
     
@@ -22,10 +28,11 @@ const PLLPage = () => {
 
                 <div className="space-y-12">
                     {algos.map((algo: any, index: number) => (
-                        <AlgoSection key={index} algo={algo} item={index} />
+                        <AlgoSection key={index} algo={algo} item={index} setIsModuleOpen={setIsModuleOpen} setAlgoritmData={setAlgoritmData} />
                     ))}
                 </div>
             </div>
+            { isModuleOpen && <AlgoritmDetails setIsModuleOpen={setIsModuleOpen} algoritmData={algoritmData} /> }
         </div>
     );
 };

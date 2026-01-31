@@ -2,7 +2,20 @@ import React from 'react';
 import { MdArrowDropDown } from 'react-icons/md';
 import AlgoCard from './AlgoCard';
 
-const AlgoSection = ({algo , item}:{algo:any , item:number}) => {
+interface props  {
+  setIsModuleOpen : (show: boolean) => void;
+  setAlgoritmData: (data: any) => void;
+   algo:any , 
+   item:number
+} 
+
+const AlgoSection = ({algo , item , setIsModuleOpen , setAlgoritmData}:props) => {
+
+    const clickHandler = (data : any) => {
+        setIsModuleOpen(true)
+        setAlgoritmData(data)
+    }
+
     return (
         <details className="group rounded-2xl overflow-hidden relative
       bg-gradient-to-br from-slate-900/70 via-slate-900/40 to-slate-950/80
@@ -24,7 +37,7 @@ const AlgoSection = ({algo , item}:{algo:any , item:number}) => {
       <div className="px-6 pb-8 relative">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {algo.algos.map((formula: any, index: number) => (
-            <AlgoCard key={index} formula={formula} />
+            <AlgoCard key={index} formula={formula} title={algo.title} algoHandler={clickHandler} />
           ))}
         </div>
       </div>
