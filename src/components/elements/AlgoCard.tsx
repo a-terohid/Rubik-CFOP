@@ -3,33 +3,44 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const AlgoCard = ({formula}:{formula:any}) => {
     return (
-        <div className="bg-background px-4 py-6 rounded-lg hover:shadow-xl h-full flex flex-col justify-between ">
-            <h5 className="md:text-lg">{formula.name}</h5>
-            {
-                formula?.img ? 
-                <div className="flex items-center justify-center my-5">
-                    <img className="w-2/3 lg:w-1/2" src={formula.img} alt={formula.name} />
-                </div> 
-            :
-                <div className="grid grid-cols-5  my-5">
-                    <img className="col-span-2" src={formula.imgages.shape} alt={formula.name} />
-                    <p className="text-4xl flex items-center justify-center w-full"><HiArrowNarrowRight/></p>
-                    <img className="col-span-2" src={formula.imgages.forAlgo} alt={formula.name} />
-                </div>
-            }
-            <div className="flex flex-col gap-y-1 items-center justify-center ">
-                <p className=" text-lg flex gap-x-2 whitespace-nowrap flex-wrap items-center  justify-center">
-                    {
-                        formula.algo.toComplete.map((al : string , index : number) => <span key={index}>{al}</span>)    
-                    }
-                </p>
-                <p className="text-sm flex gap-x-2 whitespace-nowrap flex-wrap items-center  justify-center">
-                    {
-                        formula.algo.toMake.map((al : string , index : number) => <span key={index}>{al}</span>)
-                    }
-                </p>
-            </div>
+       <div className="relative overflow-hidden rounded-2xl p-4 flex flex-col
+      bg-gradient-to-br from-slate-900 via-slate-900/90 to-slate-950
+      border border-white/5 shadow-md
+      hover:shadow-xl hover:-translate-y-1 transition-all duration-300
+
+      before:content-[''] before:absolute before:inset-0
+      before:bg-[radial-gradient(circle_at_top,rgba(56,189,248,0.15),transparent_40%)]
+      before:opacity-0 hover:before:opacity-100
+      before:transition-opacity before:duration-500
+    ">
+
+      <h5 className="text-sm font-semibold text-slate-200 text-center relative z-10">{formula.name}</h5>
+
+      {/* Image */}
+      {formula?.img ? (
+        <div className="flex justify-center my-4 relative z-10">
+          <img className="w-28 h-28 object-contain" src={formula.img} alt={formula.name} />
         </div>
+      ) : (
+        <div className="grid grid-cols-5 items-center my-4 relative z-10">
+          <img className="col-span-2" src={formula.imgages.shape} alt={formula.name} />
+          <div className="flex justify-center text-slate-400">
+            <HiArrowNarrowRight />
+          </div>
+          <img className="col-span-2" src={formula.imgages.forAlgo} alt={formula.name} />
+        </div>
+      )}
+
+      {/* Algorithms */}
+      <div className="mt-auto space-y-2 relative z-10">
+        <div className="bg-slate-800/70 backdrop-blur rounded-lg py-1 text-center font-mono text-sky-400 text-sm">
+          {formula.algo.toComplete.join(" ")}
+        </div>
+        <div className="text-xs text-slate-400 text-center font-mono">
+          {formula.algo.toMake.join(" ")}
+        </div>
+      </div>
+    </div>
     );
 };
 

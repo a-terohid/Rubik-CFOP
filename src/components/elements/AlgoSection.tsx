@@ -4,23 +4,31 @@ import AlgoCard from './AlgoCard';
 
 const AlgoSection = ({algo , item}:{algo:any , item:number}) => {
     return (
-        <div>
-             <details className="group w-full">
-                <summary className={`flex items-center justify-between w-full  gap-x-3 py-3 px-5 rounded-xl bg-Green transition`}>
-                    <h2 className="lg:text-2xl md:text-lg md:font-bold"><span className="mr-3 border-b-2 border-Crime">{`0${item+1}`}</span>{algo.title}<span className="ml-1 lg:text-lg text-sm">({algo.algos.length})</span></h2>
-                    <span className="text-2xl lg:text-3xl transition-transform duration-500 group-open:rotate-45">
-                        <MdArrowDropDown />
-                    </span>
-                </summary>
-                <div className={`lg:px-8 px-5 py-5 my-3 bg-Crime rounded-xl`}>
-                    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-                        {
-                            algo.algos.map((formula : any , index :number) => <li key={index} >{<AlgoCard formula={formula} />}</li>)
-                        }
-                    </ul>
-                </div>
-            </details>
+        <details className="group rounded-2xl overflow-hidden relative
+      bg-gradient-to-br from-slate-900/70 via-slate-900/40 to-slate-950/80
+      border border-white/5 backdrop-blur-md">
+
+      <summary className="flex items-center justify-between cursor-pointer px-6 py-5 select-none relative">
+        {/* light line */}
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-sky-400/30 to-transparent" />
+
+        <div className="flex items-center gap-3">
+          <span className="text-sky-400 font-semibold text-sm">{String(item + 1).padStart(2, "0")}</span>
+          <h2 className="text-lg lg:text-xl font-semibold text-white">{algo.title}</h2>
+          <span className="text-sm text-slate-400">({algo.algos.length})</span>
         </div>
+
+        <MdArrowDropDown className="text-2xl text-slate-400 transition-transform duration-300 group-open:rotate-180" />
+      </summary>
+
+      <div className="px-6 pb-8 relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {algo.algos.map((formula: any, index: number) => (
+            <AlgoCard key={index} formula={formula} />
+          ))}
+        </div>
+      </div>
+    </details>
     );
 };
 
