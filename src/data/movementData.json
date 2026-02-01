@@ -51,12 +51,23 @@
 
 
     { "symbol": "M", "name": "Middle Slice", "description": "Rotate middle layer like L'", "axis": "X", "type": "slice", "category": "slice", "move": "M" },
+    { "symbol": "M'", "name": "Middle Slice", "description": "Rotate middle layer like L", "axis": "X", "type": "slice", "category": "slice", "move": "M'" },
+    { "symbol": "M2", "name": "Middle Slice", "description": "Rotate middle layer 180°", "axis": "X", "type": "slice", "category": "slice", "move": "M2" },
     { "symbol": "E", "name": "Equator Slice", "description": "Rotate middle layer like D'", "axis": "Y", "type": "slice", "category": "slice", "move": "E" },
+    { "symbol": "E'", "name": "Equator Slice", "description": "Rotate middle layer like D", "axis": "Y", "type": "slice", "category": "slice", "move": "E'" },
+    { "symbol": "E2", "name": "Equator Slice", "description": "Rotate middle layer 180°", "axis": "Y", "type": "slice", "category": "slice", "move": "E2" },
     { "symbol": "S", "name": "Standing Slice", "description": "Rotate middle layer like F", "axis": "Z", "type": "slice", "category": "slice", "move": "S" },
+    { "symbol": "S'", "name": "Standing Slice", "description": "Rotate middle layer like F'", "axis": "Z", "type": "slice", "category": "slice", "move": "S'" },
+    { "symbol": "S2", "name": "Standing Slice", "description": "Rotate middle layer 180°", "axis": "Z", "type": "slice", "category": "slice", "move": "S2" },
 
     { "symbol": "X", "name": "Cube Rotation X", "description": "Rotate entire cube on X axis", "axis": "X", "type": "rotation", "category": "rotation", "move": "x" },
+    { "symbol": "X'","name": "Cube Rotation X Counter-Clockwise", "description": "Rotate entire cube 90° counter-clockwise around X axis (Right face moves down)", "axis": "X", "type": "rotation", "category": "rotation", "move": "x'" },
+    { "symbol": "X2", "name": "Cube Rotation X 180°", "description": "Rotate entire cube 180° around X axis", "axis": "X", "type": "rotation", "category": "rotation", "move": "x2"},
     { "symbol": "Y", "name": "Cube Rotation Y", "description": "Rotate entire cube on Y axis", "axis": "Y", "type": "rotation", "category": "rotation", "move": "y" },
-    { "symbol": "Z", "name": "Cube Rotation Z", "description": "Rotate entire cube on Z axis", "axis": "Z", "type": "rotation", "category": "rotation", "move": "z" }
-
+    { "symbol": "Y'","name": "Cube Rotation Y Counter-Clockwise","description": "Rotate entire cube 90° counter-clockwise around Y axis (Front face moves left)","axis": "Y","type": "rotation","category": "rotation","move": "y'"},
+    { "symbol": "Y2","name": "Cube Rotation Y 180°","description": "Rotate entire cube 180° around Y axis","axis": "Y","type": "rotation","category": "rotation","move": "y2"},
+    { "symbol": "Z", "name": "Cube Rotation Z", "description": "Rotate entire cube on Z axis", "axis": "Z", "type": "rotation", "category": "rotation", "move": "z" },
+    { "symbol": "Z'","name": "Cube Rotation Z Counter-Clockwise","description": "Rotate entire cube 90° counter-clockwise around Z axis (Top face moves left)","axis": "Z","type": "rotation","category": "rotation","move": "z'"},
+    { "symbol": "Z2","name": "Cube Rotation Z 180°","description": "Rotate entire cube 180° around Z axis","axis": "Z","type": "rotation","category": "rotation","move": "z2"}
   ]
 }

@@ -65,7 +65,7 @@
                         "forAlgo" : "/imgs/OLL/Crosses/Left and right tanks/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["LW'" , "U'" , "L" , "U" ,"R" , "U'" , "L'" , "U"],
+                        "toComplete" : ["Lw'" , "U'" , "L" , "U" ,"R" , "U'" , "L'" , "U"],
                         "toMake" : ["R'" , "F'" , "L'" , "F" , "R" , "F'" , "L" , "F"]  
                     }
                 },
@@ -76,7 +76,7 @@
                         "forAlgo" : "/imgs/OLL/Crosses/Eight/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" :  ["LW'" , "U'" , "L'" , "U" ,"R" , "U'" , "L" , "U"],
+                        "toComplete" :  ["Lw'" , "U'" , "L'" , "U" ,"R" , "U'" , "L" , "U"],
                         "toMake" : ["R'" , "F'" , "L" , "F" , "R" , "F'" , "L'" , "F" , "U"]
                     }
                 }
@@ -119,7 +119,7 @@
                         "forAlgo" : "/imgs/OLL/Squares/Right square without yellow/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW'" , "U2" , "R" , "U" , "R'" , "U" , "RW"],
+                        "toComplete" : ["Rw'" , "U2" , "R" , "U" , "R'" , "U" , "Rw"],
                         "toMake" : ["R'" , "F'" , "L" , "F'" , "L'" ,"F2" , "R" , "U2"]
                     }
                 },
@@ -130,7 +130,7 @@
                         "forAlgo" : "/imgs/OLL/Squares/Left square without yellow/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["LW" , "U2" ,"L'" , "U'" ,"L" , "U'" ,"LW'"],
+                        "toComplete" : ["Lw" , "U2" ,"L'" , "U'" ,"L" , "U'" ,"Lw'"],
                         "toMake" : ["L" , "F" , "R'" , "F" , "R" , "F2" , "L'" , "U2"]
                     }
                 }
@@ -146,7 +146,7 @@
                         "forAlgo" : "/imgs/OLL/Edged Flipped/shape of the letter H/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["R" , "U" , "R'" , "U'" , "M'" , "U" , "R" , "U'" , "RW'"],
+                        "toComplete" : ["R" , "U" , "R'" , "U'" , "M'" , "U" , "R" , "U'" , "Rw'"],
                         "toMake" : ["F" , "R'" , "F'" , "R" , "L'" , "U" , "R" , "U'" , "R'" , "L"]
                     }
                 },
@@ -158,7 +158,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["M'" , "U" , "M" , "U2" ,"M'" , "U" , "M"  ],
-                        "toMake" : ["R" , "U" , "R'" , "U'" , "RW" , "R'" , "U" , "R" , "U'" , "RW'" , "U2"]
+                        "toMake" : ["R" , "U" , "R'" , "U'" , "Rw" , "R'" , "U" , "R" , "U'" , "Rw'" , "U2"]
                     }
                 },
                 {
@@ -169,7 +169,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["(" , "M'" , "U" , ")" , "* 4" ,"(" , "M" , "U" , ")" , "* 4"],
-                        "toMake" : ["RW'" , "R" , "U" ,"R" , "U" ,"R'" , "U'" , "RW2" , "R2" , "U" , "R" , "U'" , "RW'"]
+                        "toMake" : ["Rw'" , "R" , "U" ,"R" , "U" ,"R'" , "U'" , "Rw2" , "R2" , "U" , "R" , "U'" , "Rw'"]
                     }
                 }
             ]
@@ -238,7 +238,7 @@
                         "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single right seat inside/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["LW" , "U" , "L'" ,"U" , "L" ,"U2" , "LW'"],
+                        "toComplete" : ["Lw" , "U" , "L'" ,"U" , "L" ,"U2" , "Lw'"],
                         "toMake" : ["F" , "R2" , "B'" , "R'" , "B" , "R'" , "F'" , "U'"]
                     }
                 },
@@ -250,7 +250,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["F" , "R" , "U" ,"R'" , "U'" , "F'" , "U" , "F" , "R" , "U" , "R'" , "U'" ,"F'"],
-                        "toMake" : ["RW" ,"R'" , "U" , "R'" , "U2" , "R" , "U", "R'" , "U" , "R2" , "RW'" , "U"]
+                        "toMake" : ["Rw" ,"R'" , "U" , "R'" , "U2" , "R" , "U", "R'" , "U" , "R2" , "Rw'" , "U"]
                     }
                 },
                 {
@@ -260,7 +260,7 @@
                         "forAlgo" : "/imgs/OLL/Small Lighting Bolt/Single left seat inside/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW'" , "U'" , "R" ,"U'" , "R'" ,"U2" , "RW"],
+                        "toComplete" : ["Rw'" , "U'" , "R" ,"U'" , "R'" ,"U2" , "Rw"],
                         "toMake" : ["B'" ,"R2" , "F" , "R" ,"F'" , "R" , "B" , "U'"]
                     }
                 },
@@ -272,7 +272,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["F'" , "L'" , "U'" ,"L" , "U" , "F" , "U" , "F" , "R" , "U" , "R'" , "U'" , "F'"],
-                        "toMake" : ["RW'" , "R" ,"U'" ,"R" , "U2" , "R'" ,  "U'" , "R" , "U'" , "R2" , "RW" , "U"]
+                        "toMake" : ["Rw'" , "R" ,"U'" ,"R" , "U2" , "R'" ,  "U'" , "R" , "U'" , "R2" , "Rw" , "U"]
                     }
                 }
             ]
@@ -288,7 +288,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["R" , "U2" , "R2" ,"F" , "R" ,"F'" , "R" , "U2" ,"R'"],
-                        "toMake" : ["R'" , "U2" , "LW" , "U'" , "R" , "U", "R'" , "LW'" , "U2" , "R" , "U"]
+                        "toMake" : ["R'" , "U2" , "Lw" , "U'" , "R" , "U", "R'" , "Lw'" , "U2" , "R" , "U"]
                     }
                 },
                 {
@@ -336,8 +336,8 @@
                         "forAlgo" : "/imgs/OLL/L Smal Shape/Front pair, back row/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW'" , "U2" , "R" , "U" ,"R'" , "U'" , "R" , "U" , "R'" , "U" , "RW"],
-                        "toMake" : ["RW'" , "U2" , "R" , "U" , "R'" , "U'" , "R" , "U", "R'" , "U" , "RW" , "U"]
+                        "toComplete" : ["Rw'" , "U2" , "R" , "U" ,"R'" , "U'" , "R" , "U" , "R'" , "U" , "Rw"],
+                        "toMake" : ["Rw'" , "U2" , "R" , "U" , "R'" , "U'" , "R" , "U", "R'" , "U" , "Rw" , "U"]
                     }
                 },
                 {
@@ -347,8 +347,8 @@
                         "forAlgo" : "/imgs/OLL/L Smal Shape/Rear pair, front row/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "RW'"],
-                        "toMake" : ["RW" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "RW'" , "U'" ]
+                        "toComplete" : ["Rw" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "Rw'"],
+                        "toMake" : ["Rw" , "U2" , "R'" , "U'" , "R" , "U" , "R'" , "U'" , "R" , "U'" , "Rw'" , "U'" ]
                     }
                 },
                 {
@@ -418,8 +418,8 @@
                         "forAlgo" : "/imgs/OLL/P Shapes/Full right level/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["FW'" , "L'" ,"U'" , "L" , "U" , "FW"],
-                        "toMake" : ["FW'" , "U'" , "L'" , "U" , "L" , "FW"]
+                        "toComplete" : ["Fw'" , "L'" ,"U'" , "L" , "U" , "Fw"],
+                        "toMake" : ["Fw'" , "U'" , "L'" , "U" , "L" , "Fw"]
                     }
                 },
                 {
@@ -467,8 +467,8 @@
                         "forAlgo" : "/imgs/OLL/Dot Shapes/Full left surface/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["F" , "R" , "U" , "R'" , "U'" , "S" , "R" , "U" , "R'" ,"U'" , "FW'"],
-                        "toMake" : ["FW" , "U" , "R" , "U'" , "R'" , "FW'" , "F" , "U"  , "R" , "U'" , "R'" , "F'"]
+                        "toComplete" : ["F" , "R" , "U" , "R'" , "U'" , "S" , "R" , "U" , "R'" ,"U'" , "Fw'"],
+                        "toMake" : ["Fw" , "U" , "R" , "U'" , "R'" , "Fw'" , "F" , "U"  , "R" , "U'" , "R'" , "F'"]
                     }
                 },
                 {
@@ -479,7 +479,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["F" , "R" , "U" , "R'" , "U" , "(Y')" , "R'" , "U2" , "R'" , "F" , "R" , "F'"],
-                        "toMake" : ["F" , "R'" , "F'"  , "R" , "U2" , "R" , "DW'" , "R" , "U'" , "R'"  , "F'"]
+                        "toMake" : ["F" , "R'" , "F'"  , "R" , "U2" , "R" , "Dw'" , "R" , "U'" , "R'"  , "F'"]
                     }
                 },
                 {
@@ -489,7 +489,7 @@
                         "forAlgo" : "/imgs/OLL/Dot Shapes/Mickey without a surface/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW'" , "R" , "U" , "R" , "U" , "R'" , "U'" , "RW" , "R2" , "F" , "R" , "F'"],
+                        "toComplete" : ["Rw'" , "R" , "U" , "R" , "U" , "R'" , "U'" , "Rw" , "R2" , "F" , "R" , "F'"],
                         "toMake" : ["R'" , "F'" , "U2" , "F2" , "U" , "R" , "U'", "R'" ,"F'" , "U2" , "R"]
                     }
                 },
@@ -511,7 +511,7 @@
                         "forAlgo" : "/imgs/OLL/Dot Shapes/Dot a corner bottom edge/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["FW" , "R" , "U" , "R'" , "U'" , "FW'" ,"U'" , "F" , "R","U" , "R'" , "U'" , "F'"],
+                        "toComplete" : ["Fw" , "R" , "U" , "R'" , "U'" , "Fw'" ,"U'" , "F" , "R","U" , "R'" , "U'" , "F'"],
                         "toMake" : ["L'" , "R" , "B'" ,"L" , "U2" , "L'" , "B'" , "R" , "B'" , "R2" , "L" , "U'"]
                     }
                 },
@@ -522,7 +522,7 @@
                         "forAlgo" : "/imgs/OLL/Dot Shapes/Dot corner no single/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : [ "FW" , "R" , "U" , "R'" , "U'" , "FW'"  , "U" , "F" ,"R" , "U" , "R'" , "U'" , "F'" ],
+                        "toComplete" : [ "Fw" , "R" , "U" , "R'" , "U'" , "Fw'"  , "U" , "F" ,"R" , "U" , "R'" , "U'" , "F'" ],
                         "toMake" : ["R" , "L'" , "B" , "R'" , "U2" , "R" , "B" , "L'" , "B" , "L2" , "R'" , "U'"]
                     }
                 }
@@ -538,7 +538,7 @@
                         "forAlgo" : "/imgs/OLL/I Shapes/Left and right edged/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["FW" , "R", "U" , "R'" , "U'" ,"FW'" , "F" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "F'"],
+                        "toComplete" : ["Fw" , "R", "U" , "R'" , "U'" ,"Fw'" , "F" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "F'"],
                         "toMake" : ["F" , "R" , "B" ,"R'" , "F'" , "R" , "(Y)" , "R'" , "U" , "R" , "U'" , "R'" , "F'" , "U"]
                     }
                 },
@@ -549,7 +549,7 @@
                         "forAlgo" : "/imgs/OLL/I Shapes/Front and rear left half block pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["FW" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "FW'" ],
+                        "toComplete" : ["Fw" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "Fw'" ],
                         "toMake" : ["F" , "R" , "U" , "R'" , "U'" ,"R" , "U" , "R'" , "U'" , "F'"  , "U2"]
                     }
                 },
@@ -571,8 +571,8 @@
                         "forAlgo" : "/imgs/OLL/I Shapes/Full right side surface/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["R" , "U" , "R'" , "U" ,"R" , "DW'" , "R" , "U'" , "R'" , "F'"] ,
-                        "toMake" : ["B'" , "R'" , "U'"  , "R" , "DW'" , "R" , "U" , "R'" , "U" , "R"]
+                        "toComplete" : ["R" , "U" , "R'" , "U" ,"R" , "Dw'" , "R" , "U'" , "R'" , "F'"] ,
+                        "toMake" : ["B'" , "R'" , "U'"  , "R" , "Dw'" , "R" , "U" , "R'" , "U" , "R"]
                     }
                 }
             ]
@@ -614,7 +614,7 @@
                         "forAlgo" : "/imgs/OLL/L Shapes/Right L Left Pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["RW" , "U" , "RW'" , "R" , "U" , "R'" , "U'", "RW" , "U'" ,"RW'"],
+                        "toComplete" : ["Rw" , "U" , "Rw'" , "R" , "U" , "R'" , "U'", "Rw" , "U'" ,"Rw'"],
                         "toMake" : ["L" , "F" , "L'", "U" , "R" , "U'" , "R'" , "L", "F'" , "L'"]
                     }
                 },
@@ -636,7 +636,7 @@
                         "forAlgo" : "/imgs/OLL/L Shapes/L Left Right Pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["LW'"  , "U'" , "LW" , "L'" , "U'" , "L" , "U" , "LW'" , "U" , "LW"],
+                        "toComplete" : ["Lw'"  , "U'" , "Lw" , "L'" , "U'" , "L" , "U" , "Lw'" , "U" , "Lw"],
                         "toMake" : ["L'" , "B'" , "L" ,"U'" , "R'" , "U" , "R" , "L'" , "B" ,"L" , "U2"]
                     }
                 },
@@ -664,7 +664,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["R2" , "U" , "R'" , "B'"  , "R" , "U'" , "R2" , "U" , "R" , "B" , "R'" ],
-                        "toMake" : ["LW" , "U'" , "LW'"  , "U'" , "R2" ,"U" , "R'" , "B" , "R" , "U'" , "R2"]
+                        "toMake" : ["Lw" , "U'" , "Lw'"  , "U'" , "R2" ,"U" , "R'" , "B" , "R" , "U'" , "R2"]
                     }
                 },
                 {
