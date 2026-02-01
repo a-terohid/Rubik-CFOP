@@ -39,7 +39,7 @@ const Navbar = () => {
               { href: "/PLL", label: "PLL" },
               { href: "/fingering", label: "Fingering" },
               { href: "/crose", label: "Cross" },
-              { href: "/movment", label: "Movement" },
+              { href: "/movement", label: "Movement" },
             ].map((item) => (
               <li key={item.href}>
                 <Link
@@ -81,7 +81,7 @@ const Navbar = () => {
                   { href: "/PLL", label: "PLL" },
                   { href: "/fingering", label: "Fingering" },
                   { href: "/crose", label: "Cross" },
-                  { href: "/movment", label: "Movement" },
+                  { href: "/movement", label: "Movement" },
                 ].map((item) => (
                   <li key={item.href}>
                     <Link

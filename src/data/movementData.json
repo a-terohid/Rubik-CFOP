@@ -1,0 +1,62 @@
+{
+  "MOVES_DATA": [
+
+    { "symbol": "R",  "name": "Right Face Clockwise", "description": "Rotate right face 90° clockwise", "axis": "X", "type": "face", "category": "basic", "move": "R" },
+    { "symbol": "R'", "name": "Right Face Counter-Clockwise", "description": "Rotate right face 90° counter-clockwise", "axis": "X", "type": "face", "category": "basic", "move": "R'" },
+    { "symbol": "R2", "name": "Right Face Double Turn", "description": "Rotate right face 180°", "axis": "X", "type": "face", "category": "basic", "move": "R2" },
+
+    { "symbol": "L",  "name": "Left Face Clockwise", "description": "Rotate left face 90° clockwise", "axis": "X", "type": "face", "category": "basic", "move": "L" },
+    { "symbol": "L'", "name": "Left Face Counter-Clockwise", "description": "Rotate left face 90° counter-clockwise", "axis": "X", "type": "face", "category": "basic", "move": "L'" },
+    { "symbol": "L2", "name": "Left Face Double Turn", "description": "Rotate left face 180°", "axis": "X", "type": "face", "category": "basic", "move": "L2" },
+
+    { "symbol": "U",  "name": "Up Face Clockwise", "description": "Rotate top face 90° clockwise", "axis": "Y", "type": "face", "category": "basic", "move": "U" },
+    { "symbol": "U'", "name": "Up Face Counter-Clockwise", "description": "Rotate top face 90° counter-clockwise", "axis": "Y", "type": "face", "category": "basic", "move": "U'" },
+    { "symbol": "U2", "name": "Up Face Double Turn", "description": "Rotate top face 180°", "axis": "Y", "type": "face", "category": "basic", "move": "U2" },
+
+    { "symbol": "D",  "name": "Down Face Clockwise", "description": "Rotate bottom face 90° clockwise", "axis": "Y", "type": "face", "category": "basic", "move": "D" },
+    { "symbol": "D'", "name": "Down Face Counter-Clockwise", "description": "Rotate bottom face 90° counter-clockwise", "axis": "Y", "type": "face", "category": "basic", "move": "D'" },
+    { "symbol": "D2", "name": "Down Face Double Turn", "description": "Rotate bottom face 180°", "axis": "Y", "type": "face", "category": "basic", "move": "D2" },
+
+    { "symbol": "F",  "name": "Front Face Clockwise", "description": "Rotate front face 90° clockwise", "axis": "Z", "type": "face", "category": "basic", "move": "F" },
+    { "symbol": "F'", "name": "Front Face Counter-Clockwise", "description": "Rotate front face 90° counter-clockwise", "axis": "Z", "type": "face", "category": "basic", "move": "F'" },
+    { "symbol": "F2", "name": "Front Face Double Turn", "description": "Rotate front face 180°", "axis": "Z", "type": "face", "category": "basic", "move": "F2" },
+
+    { "symbol": "B",  "name": "Back Face Clockwise", "description": "Rotate back face 90° clockwise", "axis": "Z", "type": "face", "category": "basic", "move": "B" },
+    { "symbol": "B'", "name": "Back Face Counter-Clockwise", "description": "Rotate back face 90° counter-clockwise", "axis": "Z", "type": "face", "category": "basic", "move": "B'" },
+    { "symbol": "B2", "name": "Back Face Double Turn", "description": "Rotate back face 180°", "axis": "Z", "type": "face", "category": "basic", "move": "B2" },
+
+    { "symbol": "Rw",  "name": "Wide Right Clockwise", "description": "Rotate two right layers 90° clockwise", "axis": "X", "type": "wide", "category": "wide", "move": "Rw" },
+    { "symbol": "Rw'", "name": "Wide Right Counter-Clockwise", "description": "Rotate two right layers 90° counter-clockwise", "axis": "X", "type": "wide", "category": "wide", "move": "Rw'" },
+    { "symbol": "Rw2", "name": "Wide Right Double Turn", "description": "Rotate two right layers 180°", "axis": "X", "type": "wide", "category": "wide", "move": "Rw2" },
+
+    { "symbol": "Lw",  "name": "Wide Left Clockwise", "description": "Rotate two left layers 90° clockwise", "axis": "X", "type": "wide", "category": "wide", "move": "Lw" },
+    { "symbol": "Lw'", "name": "Wide Left Counter-Clockwise", "description": "Rotate two left layers 90° counter-clockwise", "axis": "X", "type": "wide", "category": "wide", "move": "Lw'" },
+    { "symbol": "Lw2", "name": "Wide Left Double Turn", "description": "Rotate two left layers 180°", "axis": "X", "type": "wide", "category": "wide", "move": "Lw2" },
+
+    { "symbol": "Uw",  "name": "Wide Up Clockwise", "description": "Rotate two top layers 90° clockwise", "axis": "Y", "type": "wide", "category": "wide", "move": "Uw" },
+    { "symbol": "Uw'", "name": "Wide Up Counter-Clockwise", "description": "Rotate two top layers 90° counter-clockwise", "axis": "Y", "type": "wide", "category": "wide", "move": "Uw'" },
+    { "symbol": "Uw2", "name": "Wide Up Double Turn", "description": "Rotate two top layers 180°", "axis": "Y", "type": "wide", "category": "wide", "move": "Uw2" },
+
+    { "symbol": "Dw",  "name": "Wide Down Clockwise", "description": "Rotate two bottom layers 90° clockwise", "axis": "Y", "type": "wide", "category": "wide", "move": "Dw" },
+    { "symbol": "Dw'", "name": "Wide Down Counter-Clockwise", "description": "Rotate two bottom layers 90° counter-clockwise", "axis": "Y", "type": "wide", "category": "wide", "move": "Dw'" },
+    { "symbol": "Dw2", "name": "Wide Down Double Turn", "description": "Rotate two bottom layers 180°", "axis": "Y", "type": "wide", "category": "wide", "move": "Dw2" },
+
+    { "symbol": "Fw",  "name": "Wide Front Clockwise", "description": "Rotate two front layers 90° clockwise", "axis": "Z", "type": "wide", "category": "wide", "move": "Fw" },
+    { "symbol": "Fw'", "name": "Wide Front Counter-Clockwise", "description": "Rotate two front layers 90° counter-clockwise", "axis": "Z", "type": "wide", "category": "wide", "move": "Fw'" },
+    { "symbol": "Fw2", "name": "Wide Front Double Turn", "description": "Rotate two front layers 180°", "axis": "Z", "type": "wide", "category": "wide", "move": "Fw2" },
+
+    { "symbol": "Bw",  "name": "Wide Back Clockwise", "description": "Rotate two back layers 90° clockwise", "axis": "Z", "type": "wide", "category": "wide", "move": "Bw" },
+    { "symbol": "Bw'", "name": "Wide Back Counter-Clockwise", "description": "Rotate two back layers 90° counter-clockwise", "axis": "Z", "type": "wide", "category": "wide", "move": "Bw'" },
+    { "symbol": "Bw2", "name": "Wide Back Double Turn", "description": "Rotate two back layers 180°", "axis": "Z", "type": "wide", "category": "wide", "move": "Bw2" },
+
+
+    { "symbol": "M", "name": "Middle Slice", "description": "Rotate middle layer like L'", "axis": "X", "type": "slice", "category": "slice", "move": "M" },
+    { "symbol": "E", "name": "Equator Slice", "description": "Rotate middle layer like D'", "axis": "Y", "type": "slice", "category": "slice", "move": "E" },
+    { "symbol": "S", "name": "Standing Slice", "description": "Rotate middle layer like F", "axis": "Z", "type": "slice", "category": "slice", "move": "S" },
+
+    { "symbol": "X", "name": "Cube Rotation X", "description": "Rotate entire cube on X axis", "axis": "X", "type": "rotation", "category": "rotation", "move": "x" },
+    { "symbol": "Y", "name": "Cube Rotation Y", "description": "Rotate entire cube on Y axis", "axis": "Y", "type": "rotation", "category": "rotation", "move": "y" },
+    { "symbol": "Z", "name": "Cube Rotation Z", "description": "Rotate entire cube on Z axis", "axis": "Z", "type": "rotation", "category": "rotation", "move": "z" }
+
+  ]
+}
