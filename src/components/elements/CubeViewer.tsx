@@ -21,7 +21,7 @@ export const CubeViewer = ({ move, replayKey }: Props) => {
       visualization: "3D",
       background: "none",
       controlPanel: "none",
-      experimentalSetupAlg: "y2",
+      experimentalSetupAlg: "x2",
     });
 
     containerRef.current.appendChild(player);
