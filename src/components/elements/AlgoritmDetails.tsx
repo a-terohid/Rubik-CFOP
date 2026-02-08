@@ -34,9 +34,9 @@ const AlgoritmDetails = ({ algoritmData, setIsModuleOpen }: Props) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-black/70 p-4">
-      <div className="relative w-full max-w-6xl
+      <div className="relative w-full max-w-6xl max-h-[80vh] overflow-auto
         bg-gradient-to-br from-slate-900/95 to-slate-950/95
-        border border-white/10 rounded-2xl shadow-2xl overflow-hidden">
+        border border-white/10 rounded-2xl shadow-2xl lg:overflow-hidden">
 
         {/* Header */}
         <div className="p-6 border-b border-white/10 flex justify-between items-center">

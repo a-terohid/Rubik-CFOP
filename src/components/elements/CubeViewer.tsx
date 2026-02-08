@@ -72,13 +72,14 @@ export const CubeViewer = ({
       <div
         ref={containerRef}
         className="
-          h-[300px] w-full rounded-xl overflow-hidden 
-          lg:max-w-full max-w-[320px] sm:max-w-[360px]
-          border border-white/10
-          bg-gradient-to-br from-slate-900/60 via-slate-800/40 to-slate-900/60
-          backdrop-blur-md
-          flex items-center justify-center
-        "
+  aspect-square w-full
+  max-w-[260px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-full
+  rounded-xl overflow-hidden
+  border border-white/10
+  bg-gradient-to-br from-slate-900/60 via-slate-800/40 to-slate-900/60
+  backdrop-blur-md
+  flex items-center justify-center
+"
       />
     </div>
   );
