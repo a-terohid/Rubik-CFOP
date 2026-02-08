@@ -4,6 +4,7 @@ import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import Image from "next/image";
 import { CubeViewer } from "../elements/CubeViewer";
+import { expandAlgorithm } from "@/src/utils/expandAlgorithm";
 
 interface Props {
   algoritmData: any;
@@ -14,8 +15,10 @@ const AlgoritmDetails = ({ algoritmData, setIsModuleOpen }: Props) => {
 
   const completeMoves: string[] = algoritmData.algo.toComplete;
   const makeMoves: string[] = algoritmData.algo.toMake;
+  const seq = expandAlgorithm(completeMoves);
 
   const completeSeq = completeMoves.join(" ");
+  const algString = seq.join(" ");
   const makeSeq = makeMoves.join(" ");
 
   const [replayKey, setReplayKey] = useState(0);
@@ -100,7 +103,7 @@ const AlgoritmDetails = ({ algoritmData, setIsModuleOpen }: Props) => {
             <div className="bg-slate-900/50 rounded-xl p-4 border border-white/5 flex items-center justify-center">
               <CubeViewer
                 scramble={`x2 ${makeSeq}`}    
-                solve={completeSeq}    
+                solve={algString}    
                 replayKey={replayKey}
                 playKey={playKey}
               />
