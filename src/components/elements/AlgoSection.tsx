@@ -1,4 +1,4 @@
-import React from 'react';
+"use client"
 import { MdArrowDropDown } from 'react-icons/md';
 import AlgoCard from './AlgoCard';
 

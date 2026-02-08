@@ -4,14 +4,28 @@ import { TwistyPlayer } from "cubing/twisty";
 import { useEffect, useRef } from "react";
 
 type Props = {
+  /** mode ساده (MovementPage) */
   move?: string;
+
+  /** mode الگوریتمی */
+  solve?: string;
+  scramble?: string;
+
   replayKey?: number;
+  playKey?: number;
 };
 
-export const CubeViewer = ({ move, replayKey }: Props) => {
+export const CubeViewer = ({
+  move,
+  solve,
+  scramble,
+  replayKey,
+  playKey,
+}: Props) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<TwistyPlayer | null>(null);
 
+  /* ---------- init / reset ---------- */
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -21,33 +35,50 @@ export const CubeViewer = ({ move, replayKey }: Props) => {
       visualization: "3D",
       background: "none",
       controlPanel: "none",
-      experimentalSetupAlg: "x2",
+      experimentalSetupAlg: scramble || "x2", // اگر scramble نبود → default
     });
 
+    containerRef.current.innerHTML = "";
     containerRef.current.appendChild(player);
     playerRef.current = player;
 
     return () => {
       player.remove();
+      playerRef.current = null;
     };
-  }, []);
+  }, [scramble, replayKey]);
 
+  /* ---------- single move mode ---------- */
   useEffect(() => {
-    if (playerRef.current && move) {
-      playerRef.current.alg = move;
-      playerRef.current.play();
-    }
+    if (!playerRef.current) return;
+    if (!move) return;
+
+    playerRef.current.alg = move;
+    playerRef.current.play();
   }, [move, replayKey]);
+
+  /* ---------- solve mode ---------- */
+  useEffect(() => {
+    if (!playerRef.current) return;
+    if (!solve) return;
+    if (!playKey || playKey === 0) return;
+
+    playerRef.current.alg = solve;
+    playerRef.current.play();
+  }, [solve, playKey]);
 
   return (
     <div className="w-full flex justify-center">
       <div
         ref={containerRef}
-             className="h-[300px] w-full rounded-xl overflow-hidden lg:max-w-full max-w-[320px] sm:max-w-[360px] 
-border border-white/10
-bg-gradient-to-br from-slate-900/60 via-slate-800/40 to-slate-900/60
-backdrop-blur-md
-flex items-center justify-center"
+        className="
+          h-[300px] w-full rounded-xl overflow-hidden 
+          lg:max-w-full max-w-[320px] sm:max-w-[360px]
+          border border-white/10
+          bg-gradient-to-br from-slate-900/60 via-slate-800/40 to-slate-900/60
+          backdrop-blur-md
+          flex items-center justify-center
+        "
       />
     </div>
   );

@@ -1,4 +1,4 @@
-import React from 'react';
+"use client"
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const AlgoCard = ({formula , title , algoHandler}:{formula:any , title:string , algoHandler: (data: any) => void}) => {
