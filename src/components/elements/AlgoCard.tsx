@@ -34,10 +34,10 @@ const AlgoCard = ({formula , title , algoHandler}:{formula:any , title:string , 
       {/* Algorithms */}
       <div className="mt-auto space-y-2 relative z-10">
         <div className="bg-slate-800/70 backdrop-blur rounded-lg py-1 text-center font-mono text-sky-400 text-sm px-2 ">
-          {formula.algo.toComplete.join(" ")}
+          {(formula.algo.toComplete.join(" ")).toUpperCase()}
         </div>
         <div className="text-xs text-slate-400 text-center font-mono">
-          {formula.algo.toMake.join(" ")}
+          {(formula.algo.toMake.join(" ")).toUpperCase()}
         </div>
       </div>
     </div>

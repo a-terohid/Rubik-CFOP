@@ -15,7 +15,7 @@
                     "name" : "White top edge opposite from back",
                     "img" : "/imgs/F2l/Basic cases/White top edge opposite from back.png",
                     "algo" : {
-                        "toComplete" : ["(Y')", "R'" ,"U" , "R"],
+                        "toComplete" : ["y'", "R'" ,"U'" , "R"],
                         "toMake" : ["F'", "U" ,"F"]
                     }
                 },
@@ -31,7 +31,7 @@
                     "name" : "White right top edge attached, colors match",
                     "img" : "/imgs/F2l/Basic cases/White right top edge attached, colors match.png",
                     "algo" : {
-                        "toComplete" : ["Dw", "L'" ,"U", "L"],
+                        "toComplete" : ["Dw'", "L'" ,"U", "L"],
                         "toMake" : ["F'", "U'" ,"F", "U"]
                     }
                 }
@@ -60,7 +60,7 @@
                     "name" : "White right top edge opposite colors",
                     "img" : "/imgs/F2l/Corner and edge in top/White right top edge opposite colors.png",
                     "algo" : {
-                        "toComplete" : ["Dw", "R'" , "U" , "R" , "Dw'" , "R" , "U" , "R"],
+                        "toComplete" : ["Dw", "R'" , "U" , "R" , "Dw'" , "R" , "U" , "R'"],
                         "toMake" : ["R" , "U'" , "R'" , "U'" , "R", "U'" , "R'" , "U"]
                     }
                 },
@@ -185,7 +185,7 @@
                     "name" : "White top top edge colors opposite right",
                     "img" : "/imgs/F2l/Corner pointing up, edge in top/White top top edge colors opposite right.png",
                     "algo" : {
-                        "toComplete" : ["(Y')", "U2" , "R'", "U'", "R", "U'", "R'", "U" , "R"],
+                        "toComplete" : ["y'", "U2" , "R'", "U'", "R", "U'", "R'", "U" , "R"],
                         "toMake" : ["F'","U'", "F","U","F'","U" ,"F", "U2"]
                     }
                 },
@@ -307,7 +307,7 @@
                     "name" : "Top left white edge facing down",
                     "img" : "/imgs/F2l/Corner in bottom, edge in top/Top left white edge facing down.png",
                     "algo" : {
-                        "toComplete" : ["U2" , "R" , "U'" , "R'" , "(Y')" , "R'" , "U'" , "R"],
+                        "toComplete" : ["U2" , "R" , "U'" , "R'" , "y'" , "R'" , "U'" , "R"],
                         "toMake" : ["F'" , "U" , "F" , "U'" , "F'" , "U" , "F"]
                     }
                 }
@@ -336,7 +336,7 @@
                     "name" : "White rounded edge bottom right, opposite colors",
                     "img" : "/imgs/F2l/Corner in bottom, edge in middle/White rounded edge bottom right, opposite colors.png",
                     "algo" : {
-                        "toComplete" : ["R" , "U'" , "R'" , "U2" , "(Y')" ,"R'" , "U'" , "R" , "U'" , "R'" , "U" , "R"],
+                        "toComplete" : ["R" , "U'" , "R'" , "U2" , "y'" ,"R'" , "U'" , "R" , "U'" , "R'" , "U" , "R"],
                         "toMake" : ["F'" , "L'" , "U2" , "L" , "F" , "R" , "U" , "R'"]
                     }
                 },

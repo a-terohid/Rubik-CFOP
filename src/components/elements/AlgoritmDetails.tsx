@@ -87,12 +87,12 @@ const AlgoritmDetails = ({ algoritmData, setIsModuleOpen }: Props) => {
             {/* Algorithms */}
             <div className="bg-slate-900/60 rounded-xl p-4 text-sm">
               <p className="text-slate-400 mb-1">To Make Shape (Scramble)</p>
-              <p className="font-mono text-amber-400 break-words">{makeSeq}</p>
+              <p className="font-mono text-amber-400 break-words">{makeSeq.toUpperCase()}</p>
             </div>
 
             <div className="bg-slate-900/60 rounded-xl p-4 text-sm">
               <p className="text-slate-400 mb-1">To Complete (Solve)</p>
-              <p className="font-mono text-emerald-400 break-words">{completeSeq}</p>
+              <p className="font-mono text-emerald-400 break-words">{completeSeq.toUpperCase()}</p>
             </div>
           </div>
 

@@ -4,10 +4,7 @@ import { TwistyPlayer } from "cubing/twisty";
 import { useEffect, useRef } from "react";
 
 type Props = {
-  /** mode ساده (MovementPage) */
   move?: string;
-
-  /** mode الگوریتمی */
   solve?: string;
   scramble?: string;
   visualization ?: "2D" | "3D";

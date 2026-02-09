@@ -15,7 +15,7 @@
                     "name" : "Corners are right, edges are wrong, opposite",
                     "img" : "/imgs/PLL/Edges only/Corners are right, edges are wrong, opposite.png",
                     "algo" : {
-                        "toComplete" : ["M2" , "U" , "M2" ,"U" , "M'" , "U2" , "M2" , "U2" , "M'" , "M2"],
+                        "toComplete" : ["M2" , "U" , "M2" ,"U" , "M'" , "U2" , "M2" , "U2" , "M'" , "U2" ],
                         "toMake" : ["U2" , "R'" , "U'" , "R2" , "U" , "R" , "U" , "R'" , "U'" , "R" , "U" , "R" , "U'" , "R" , "U'" , "R'"]
                     }
                 },
@@ -23,7 +23,7 @@
                     "name" : "Full back row of front edge for left side",
                     "img" : "/imgs/PLL/Edges only/Full back row of front edge for left side.png",
                     "algo" : {
-                       "toComplete" : ["R" , "U'" , "(" , "R" , "U" , ")" , "* 2" , "R" , "U'" , "R'" , "U'" , "R'" ,"U" , "R2"],
+                       "toComplete" : ["R" , "U'" , "(" , "R" , "U" , ")" , "* 2" , "R" , "U'" , "R'" , "U'" , "R2" , "U2"],
                         "toMake" : ["R'" , "U" , "R'" , "U'" , "R'" , "U'" , "R'" , "U" , "R" , "U" , "R2" , "U2"]
                     }
                 },
@@ -53,7 +53,7 @@
                     "name" : "Complete right block and right pair",
                     "img" : "/imgs/PLL/Corners only/Complete right block and right pair.png",
                     "algo" : {
-                        "toComplete" : ["(X)" , "R2" , "D2" , "R" , "U" , "R'" , "D2" , "R" , "U'" , "R'" , "(X')"],
+                        "toComplete" : ["x" , "R2" , "D2" , "R" , "U" , "R'" , "D2" , "R" , "U'" , "R" , "x'"],
                         "toMake" : ["R'" , "F" , "R'" , "B2" , "R" , "F'" , "R'", "B2" , "R2"]
                     }
                 },
@@ -61,7 +61,7 @@
                     "name" : "The edges are right but the corners are not",
                     "img" : "/imgs/PLL/Corners only/The edges are right but the corners are not.png",
                     "algo" : {
-                        "toComplete" : ["(X')" , "R" , "U'" , "R'" , "D" ,"R" , "U" , "R'" , "D'" , "R" , "U" , "R'" , "D" , "R" , "U'", "R'" , "D'"],
+                        "toComplete" : ["x'" , "R" , "U'" , "R'" , "D" ,"R" , "U" , "R'" , "D'" , "R" , "U" , "R'" , "D" , "R" , "U'", "R'" , "D'"],
                         "toMake" : ["L'" , "B" , "L" , "F'" , "L'" , "B'" , "L" , "F2" , "R" , "B'" , "R'" , "F'" ,"R" , "B" , "R'"]
                     }
                 }
@@ -102,8 +102,8 @@
                     }
                 },
                 {
-                    "name" : "Mode (y)",
-                    "img" : "/imgs/PLL/Edges and corners/Mode (y).png",
+                    "name" : "Mode y",
+                    "img" : "/imgs/PLL/Edges and corners/Mode y.png",
                     "algo" : {
                         "toComplete" : ["F" , "R", "U'" ,"R'" , "U'" ,"R" , "U" ,"R'" , "F'" , "R" , "U" ,"R'" , "U'" , "R'" ,"F" , "R" , "F'"],
                         "toMake" : ["F" , "R'" ,"F'" , "R", "U" ,"R" , "U'" , "R'" , "F" , "R" , "U'" , "R'" ,"U" ,"R" ,"U" , "R'" , "F'"]
@@ -121,7 +121,7 @@
                     "name" : "The entire front row, both edges and both corners, should be replaced",
                     "img" : "/imgs/PLL/Edges and corners/The entire front row, both edges and both corners, should be replaced.png",
                     "algo" : {
-                        "toComplete" : ["R'" , "U'" , "F'" ,"R" , "U" , "R'"  , "U'" , "R'" , "F" , "R2" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "U" , "R"],
+                        "toComplete" : ["R'" , "U'" , "F'" ,"R" , "U" , "R'"  , "U'" , "R'" , "F" , "R2" , "U'" , "R'" , "U'" , "R" , "U" , "R'" , "U" , "R" , "U'"],
                         "toMake" : ["U" , "R2" ,"F" , "R" , "F'" , "R'" , "U'" ,"F'" , "U", "F" , "R2" ,"U" , "R'" ,"U'"  , "R" ,"U"]
                     }
                 },
@@ -129,7 +129,7 @@
                     "name" : "Front pair, right side block",
                     "img" : "/imgs/PLL/Edges and corners/Front pair, right side block.png",
                     "algo" : {
-                        "toComplete" : ["L" , "U2" , "L'" , "U2"  , "L" , "F'" , "L'", "U'" , "L" , "U" ,"L" , "F" , "L2" , "U"],
+                        "toComplete" : ["L" , "U2" , "L'" , "U2"  , "L" , "F'" , "L'", "U'" , "L" , "U" ,"L" , "F" , "L2" , "U'"],
                         "toMake" : ["U'" ,"R" , "U'" , "B" , "L'" , "B'" , "R'" , "B" , "L" , "B'" , "U'"  , "R", "U2" , "R'" , "U2"]
                     }
                 },
@@ -145,7 +145,7 @@
                     "name" : "The front row is complete, the rest of the blocks are complete",
                     "img" : "/imgs/PLL/Edges and corners/The front row is complete, the rest of the blocks are complete.png",
                     "algo" : {
-                        "toComplete" : ["R'" , "U" ,"L'" ,"U2", "R" , "U'" , "R'" , "U2" ,"L" , "R" ,"U'" ],
+                        "toComplete" : ["R'" , "U" ,"L'" ,"U2", "R" , "U'" , "R'" , "U2" ,"L" , "R" ],
                         "toMake" : ["R2" , "D" , "R" , "D'" , "R" , "F2" ,"L'" , "U" ,"L" , "F2" , "U'"]
                     }
                 },
@@ -153,7 +153,7 @@
                     "name" : "Left pair, full front half block",
                     "img" : "/imgs/PLL/Edges and corners/Left pair, full front half block.png",
                     "algo" : {
-                        "toComplete" : ["R2" , "Uw" , "R'" , "U" , "R'" , "U'"  , "R" ,"Uw'" , "R2" ,"(Y')", "R'" , "U" , "R"],
+                        "toComplete" : ["R2" , "Uw" , "R'" , "U" , "R'" , "U'"  , "R" ,"Uw'" , "R2" ,"y'", "R'" , "U" , "R"],
                         "toMake" : ["F'" , "U'" , "F" ,"R2" , "D" ,"B'" ,"U" , "B" , "U'" , "B" , "D'" , "R2"]
                     }
                 },
@@ -161,7 +161,7 @@
                     "name" : "Left pair, half block behind full",
                     "img" : "/imgs/PLL/Edges and corners/Left pair, half block behind full.png",
                     "algo" : {
-                        "toComplete" : ["R2" , "Uw'" ,"R" , "U'" , "R" , "U" , "R'" , "Uw" , "R2" , "FW" , "R'" , "FW'"],
+                        "toComplete" : ["R2" , "Uw'" ,"R" , "U'" , "R" , "U" , "R'" , "Uw" , "R2" , "Fw" , "R'" , "Fw'"],
                         "toMake" : ["B" , "U" , "B'" , "R2" , "D'" , "F" , "U'" , "F'" , "U" , "F'", "D", "R2"]
                     }
                 },
@@ -169,7 +169,7 @@
                     "name" : "Left pair, upper right half block complete",
                     "img" : "/imgs/PLL/Edges and corners/Left pair, upper right half block complete.png",
                     "algo" : {
-                        "toComplete" : ["R'" , "U'" , "R" , "(Y)" ,"R2" , "Uw" ,"R'" ,"U" , "R" , "U'" ,"R" , "Uw'" , "R2"],
+                        "toComplete" : ["R'" , "U'" , "R" , "y" ,"R2" , "Uw" ,"R'" ,"U" , "R" , "U'" ,"R" , "Uw'" , "R2" , "U2"],
                         "toMake" : ["F2" , "D" , "R'" , "U" , "R'" , "U'" , "R" , "D'" , "F2" , "L'" , "U" , "L" ,"U2"]
                     }
                 },
@@ -177,7 +177,7 @@
                     "name" : "Left pair, right bottom half block complete",
                     "img" : "/imgs/PLL/Edges and corners/Left pair, right bottom half block complete.png",
                     "algo" : {
-                        "toComplete" : ["R" , "U" , "R'" ,"(Y')"  , "R2" , "Uw'" , "R" , "U'" ,"R'" , "U" , "R'" , "Uw" , "R2"],
+                        "toComplete" : ["R" , "U" , "R'" ,"y'"  , "R2" , "Uw'" , "R" , "U'" ,"R'" , "U" , "R'" , "Uw" , "R2"],
                         "toMake" : ["F2" , "D'" , "L" , "U'" , "L" , "U" , "L'", "D" , "F2", "R" , "U'" , "R'"]
                     }
                 }

@@ -21,8 +21,8 @@
                         "forAlgo" : "/imgs/OLL/Crosses/Fish without yellow/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["R" , "U2" , "R'" , "U'" , "R" , "U'" , "R'"],
-                        "toMake" : ["R" , "U'" , "R'" ,"U'" , "R" , "U2" , "R'"]
+                        "toComplete": ["R" , "U2" , "R'" , "U'" , "R" , "U'" , "R'"],
+                        "toMake" :["R" , "U" , "R'" , "U" , "R" , "U2" , "R'"]
                     }
                 },
                 {
@@ -478,7 +478,7 @@
                         "forAlgo" : "/imgs/OLL/Dot Shapes/Mickey with a surface/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["F" , "R" , "U" , "R'" , "U" , "(Y')" , "R'" , "U2" , "R'" , "F" , "R" , "F'"],
+                        "toComplete" : ["F" , "R" , "U" , "R'" , "U" , "y'" , "R'" , "U2" , "R'" , "F" , "R" , "F'"],
                         "toMake" : ["F" , "R'" , "F'"  , "R" , "U2" , "R" , "Dw'" , "R" , "U'" , "R'"  , "F'"]
                     }
                 },
@@ -539,7 +539,7 @@
                     },
                     "algo" : {
                         "toComplete" : ["Fw" , "R", "U" , "R'" , "U'" ,"Fw'" , "F" , "(" , "R" , "U" , "R'" , "U'" , ")" , "* 2" , "F'"],
-                        "toMake" : ["F" , "R" , "B" ,"R'" , "F'" , "R" , "(Y)" , "R'" , "U" , "R" , "U'" , "R'" , "F'" , "U"]
+                        "toMake" : ["F" , "R" , "B" ,"R'" , "F'" , "R" , "y" , "R'" , "U" , "R" , "U'" , "R'" , "F'" , "U"]
                     }
                 },
                 {
@@ -587,8 +587,8 @@
                         "forAlgo" : "/imgs/OLL/Z Shapes/Front pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["R" , "B'" , "R'" , "U'" , "R" , "U" , "(Y)" , "R" , "U'"  , "F'"],
-                        "toMake" : ["F" ,"U" , "R'" , "(Y')" , "U'" , "R'" , "U" , "R" , "B" ,"R'"]
+                        "toComplete" : ["R" , "B'" , "R'" , "U'" , "R" , "U" , "y" , "R" , "U'"  , "F'"],
+                        "toMake" : ["F" ,"U" , "R'" , "y'" , "U'" , "R'" , "U" , "R" , "B" ,"R'"]
                     }
                 },
                 {
@@ -625,7 +625,7 @@
                         "forAlgo" : "/imgs/OLL/L Shapes/Right L Right pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["(X')" , "R" , "U'" , "R'" ,"F'" ,"R" , "U" , "R'" , "(" , "X" , "Y" , ")" , "R'", "U" , "R"],
+                        "toComplete" : ["x'" , "R" , "U'" , "R'" ,"F'" ,"R" , "U" , "R'" , "(" , "x" , "y" , ")" , "R'", "U" , "R"],
                         "toMake" : ["F'" , "U'" , "F" , "L" , "F'" , "L'" , "U" , "L" , "F"  , "L'" , "U2"]
                     }
                 },
@@ -647,7 +647,7 @@
                         "forAlgo" : "/imgs/OLL/L Shapes/L left pair left/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["(X')" , "L'" , "U" , "L" , "F" , "L'" , "U'" , "L" ,  "(" , "X" , "Y'" , ")" , "L" , "U'"  , "L'"],
+                        "toComplete" : ["x'" , "L'" , "U" , "L" , "F" , "L'" , "U'" , "L" ,  "(" , "x" , "y'" , ")" , "L" , "U'"  , "L'"],
                         "toMake" : ["F" , "U" , "F'" , "R'" , "F" , "R" ,"U'" , "R'" , "F'"  , "R" , "U2"]
                     }
                 }
@@ -674,8 +674,8 @@
                         "forAlgo" : "/imgs/OLL/AWK Word Shape/Right side with pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["R" , "U'" , "R'" , "U2" , "R", "U" ,"(Y)" , "R" , "U'" , "R'" , "U'" , "F'"],
-                        "toMake" : ["F" , "U" , "R" , "U" , "R'" , "(Y')" , "U'" , "R'" , "U2" , "R" , "U" , "R'"]
+                        "toComplete" : ["R" , "U'" , "R'" , "U2" , "R", "U" ,"y" , "R" , "U'" , "R'" , "U'" , "F'"],
+                        "toMake" : ["F" , "U" , "R" , "U" , "R'" , "y'" , "U'" , "R'" , "U2" , "R" , "U" , "R'"]
                     }
                 },
                 {
@@ -696,8 +696,8 @@
                         "forAlgo" : "/imgs/OLL/AWK Word Shape/Left side with pair/forAlgo.png"
                     },
                     "algo" : {
-                        "toComplete" : ["L'" , "U" , "L" , "U2" , "L'" , "U'"  , "(Y')" , "L'" , "U" , "L" , "U" , "F"],
-                        "toMake" : ["B'" , "U'"  , "R'" , "U'" ,"R" , "(Y)" , "U", "R", "U2" , "R'" , "U'"  , "R" , "U2"]
+                        "toComplete" : ["L'" , "U" , "L" , "U2" , "L'" , "U'"  , "y'" , "L'" , "U" , "L" , "U" , "F"],
+                        "toMake" : ["B'" , "U'"  , "R'" , "U'" ,"R" , "y" , "U", "R", "U2" , "R'" , "U'"  , "R" , "U2"]
                     }
                 }
                 
