@@ -10,7 +10,7 @@ type Props = {
   /** mode الگوریتمی */
   solve?: string;
   scramble?: string;
-
+  visualization ?: "2D" | "3D";
   replayKey?: number;
   playKey?: number;
 };
@@ -20,6 +20,7 @@ export const CubeViewer = ({
   solve,
   scramble,
   replayKey,
+  visualization,
   playKey,
 }: Props) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -32,10 +33,10 @@ export const CubeViewer = ({
     const player = new TwistyPlayer({
       puzzle: "3x3x3",
       alg: "",
-      visualization: "3D",
+      visualization: visualization || "3D",
       background: "none",
       controlPanel: "none",
-      experimentalSetupAlg: scramble || "x2", // اگر scramble نبود → default
+      experimentalSetupAlg: scramble || "x2", 
     });
 
     containerRef.current.innerHTML = "";
@@ -46,7 +47,7 @@ export const CubeViewer = ({
       player.remove();
       playerRef.current = null;
     };
-  }, [scramble, replayKey]);
+  }, [scramble, replayKey , visualization]);
 
   /* ---------- single move mode ---------- */
   useEffect(() => {

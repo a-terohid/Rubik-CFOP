@@ -6,6 +6,16 @@ import { useEffect, useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { TfiMenu } from "react-icons/tfi";
 
+const items = [
+              { href: "/F2L", label: "F2L" },
+              { href: "/OLL", label: "OLL" },
+              { href: "/PLL", label: "PLL" },
+              { href: "/fingering", label: "Fingering" },
+              { href: "/crose", label: "Cross" },
+              { href: "/scramble", label: "Scramble" },
+              { href: "/movement", label: "Movement" },
+            ]
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -33,14 +43,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <ul className="hidden lg:flex gap-x-6 items-center text-sm">
-            {[
-              { href: "/F2L", label: "F2L" },
-              { href: "/OLL", label: "OLL" },
-              { href: "/PLL", label: "PLL" },
-              { href: "/fingering", label: "Fingering" },
-              { href: "/crose", label: "Cross" },
-              { href: "/movement", label: "Movement" },
-            ].map((item) => (
+            {items.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
@@ -75,14 +78,7 @@ const Navbar = () => {
 
             <div className="max-w-7xl mx-auto px-6 py-8">
               <ul className="flex flex-col items-center gap-y-5 text-lg">
-                {[
-                  { href: "/F2L", label: "F2L" },
-                  { href: "/OLL", label: "OLL" },
-                  { href: "/PLL", label: "PLL" },
-                  { href: "/fingering", label: "Fingering" },
-                  { href: "/crose", label: "Cross" },
-                  { href: "/movement", label: "Movement" },
-                ].map((item) => (
+                {items.map((item) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
